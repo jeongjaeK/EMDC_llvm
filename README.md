@@ -1,7 +1,12 @@
-# Intel Project for LLVM\* technology
+# SYCL compiler for dynamic rebinding
 
-Intel staging area for llvm.org contribution. Home for Intel LLVM-based projects:
+This project is for providing transparency and dynamic rebinding of the use of heterogeneous accelerators on edge micro data centers 
 
+## Forked from
+Intel LLVM-based projects (https://github.com/intel/llvm)
+
+
+## README.md from Intel LLVM-based projects as below:
 ## oneAPI Data Parallel C++ compiler
 
 [![](https://spec.oneapi.io/oneapi-logo-white-scaled.jpg)](https://www.oneapi.io/)
