@@ -1,3 +1,12 @@
-.eh_frame_hdr
-.eh_frame
-.gcc_except_table
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.comment
+.symtab
+.strtab
+.shstrtab
