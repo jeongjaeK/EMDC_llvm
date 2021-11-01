@@ -2,7 +2,11 @@
 
 This project is for providing transparency and dynamic rebinding of the use of heterogeneous accelerators on edge micro data centers 
 
-## Forked from
+## Work-in-progress ##
+Removing device code section which will not be executed from FAT binary.
+objcopy --remove-section ${section_name} fatbin or --update-section ${section_name}=${dummy_section.file} fatbin doesn't lead to shrink fatbin file size.
+
+## Forked from ##
 Intel LLVM-based projects (https://github.com/intel/llvm)
 
 
