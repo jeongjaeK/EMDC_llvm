@@ -1,0 +1,3 @@
+[submodule "externals/pyelftools"]
+	path = externals/pyelftools
+	url = https://github.com/eliben/pyelftools
