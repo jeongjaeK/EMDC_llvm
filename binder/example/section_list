@@ -1,3 +1,7 @@
+__CLANG_OFFLOAD_BUNDLE__sycl-spir64_fpga
+.eh_frame_hdr
+.eh_frame
+.gcc_except_table
 .init_array
 .fini_array
 .data.rel.ro

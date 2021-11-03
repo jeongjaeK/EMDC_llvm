@@ -1,3 +1,6 @@
 [submodule "externals/pyelftools"]
 	path = externals/pyelftools
 	url = https://github.com/eliben/pyelftools
+[submodule "externals/ELFIO"]
+	path = externals/ELFIO
+	url = https://github.com/serge1/ELFIO.git
