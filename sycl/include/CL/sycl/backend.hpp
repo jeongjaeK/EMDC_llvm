@@ -207,8 +207,9 @@ typename std::enable_if<detail::InteropFeatureSupportMap<Backend>::MakeBuffer ==
 make_buffer(const typename backend_traits<Backend>::template input_type<
                 buffer<T, Dimensions, AllocatorT>> &BackendObject,
             const context &TargetContext, event AvailableEvent = {}) {
-  return buffer<T, Dimensions, AllocatorT>(
-      reinterpret_cast<cl_mem>(BackendObject), TargetContext, AvailableEvent);
+  return detail::make_buffer_helper<T, Dimensions, AllocatorT>(
+      detail::pi::cast<pi_native_handle>(BackendObject), TargetContext,
+      AvailableEvent);
 }
 
 template <backend Backend>
@@ -216,9 +217,8 @@ kernel
 make_kernel(const typename backend_traits<Backend>::template input_type<kernel>
                 &BackendObject,
             const context &TargetContext) {
-  return detail::make_kernel(
-      TargetContext, get_kernel_bundle<bundle_state::executable>(TargetContext),
-      detail::pi::cast<pi_native_handle>(BackendObject), false, Backend);
+  return detail::make_kernel(detail::pi::cast<pi_native_handle>(BackendObject),
+                             TargetContext, Backend);
 }
 
 template <backend Backend, bundle_state State>
