@@ -5,19 +5,24 @@ This project is for providing transparency and dynamic rebinding of the use of h
 ## Ready for dynamic rebinding ##
 Compile sycl code for multiple target backends with linker option to specify file offset of clang offload section
 
-e.g. clang++ -fsycl -fsycl-targets=<backends list> main.cpp -Xlink <linker arg> (-Xlink <linker arg>) -o out.exe
-<backends list> : comma seperated list
-  spir64_x86_64 for Intel CPU backend
-  spir64_gen for Intel GPU (ComputeCpp) backend
-  spir64_fpga for Intel FPGA backend(emulation or real device)
-  nvptx64 for NVIDIA PTX backend* (llvm should be configured *cuda enabled and compiled to use this target)
-<linker arg> : argument of GNU linker 'ld'
-  --section-start <section_name>=<address>
-  <section_name> : __CLANG_OFFLOAD_BUNDLE__sycl-{target backend}
-  <address> should be greater than any other section's address
+e.g. clang++ -fsycl -fsycl-targets=[backend list] main.cpp -Xlink [linker arg] (-Xlink [linker arg]) -o out.exe
+  
+[backends list] : comma seperated list  
+  
+    spir64_x86_64 for Intel CPU backend  
+    spir64_gen for Intel GPU (ComputeCpp) backend  
+    spir64_fpga for Intel FPGA backend(emulation or real device)  
+    nvptx64 for NVIDIA PTX backend* (llvm should be configured *cuda enabled and compiled to use this target)  
+  
+[linker arg] : argument of GNU linker 'ld'  
+  
+    --section-start <section_name>=<address>  
+    <section_name> : __CLANG_OFFLOAD_BUNDLE__sycl-{target backend}    
+    [address] should be greater than any other section's address
  
 ## Work-in-progress ##
 Implementing SYCL ELF strip tool.
+
 0. parse arguments 
 1. validate if the input,sycl ELF, is ready for dynamic rebinding
     file offsets of clang offload sections should be greater than other sections will be loaded into memory. 
