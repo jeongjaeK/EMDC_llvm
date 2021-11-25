@@ -688,6 +688,12 @@ static bool isValidSYCLTriple(llvm::Triple T) {
   return true;
 }
 
+static const char *getDefaultSYCLArch(Compilation &C) {
+  if (C.getDefaultToolChain().getTriple().getArch() == llvm::Triple::x86)
+    return "spir";
+  return "spir64";
+}
+
 static bool addSYCLDefaultTriple(Compilation &C,
                                  SmallVectorImpl<llvm::Triple> &SYCLTriples) {
   /// Returns true if a triple is added to SYCLTriples, false otherwise
@@ -702,7 +708,8 @@ static bool addSYCLDefaultTriple(Compilation &C,
       return false;
   }
   // Add the default triple as it was not found.
-  llvm::Triple DefaultTriple = C.getDriver().MakeSYCLDeviceTriple("spir64");
+  llvm::Triple DefaultTriple =
+      C.getDriver().MakeSYCLDeviceTriple(getDefaultSYCLArch(C));
   SYCLTriples.insert(SYCLTriples.begin(), DefaultTriple);
   return true;
 }
@@ -954,7 +961,7 @@ void Driver::CreateOffloadingDeviceToolChains(Compilation &C,
             } else if (TT.getVendor() != llvm::Triple::UnknownVendor)
               SuggestedTriple += Twine("-" + TT.getVendorName()).str();
             Diag(clang::diag::warn_drv_deprecated_arg)
-                << TT.str() << true << SuggestedTriple;
+                << TT.str() << SuggestedTriple;
             // Drop environment component.
             std::string EffectiveTriple =
                 Twine(TT.getArchName() + "-" + TT.getVendorName() + "-" +
@@ -1018,16 +1025,11 @@ void Driver::CreateOffloadingDeviceToolChains(Compilation &C,
     // If -fsycl is supplied without -fsycl-*targets we will assume SPIR-V
     // unless -fintelfpga is supplied, which uses SPIR-V with fpga AOT.
     // For -fsycl-device-only, we also setup the implied triple as needed.
-    StringRef SYCLTargetArch;
-    if (C.getInputArgs().hasArg(options::OPT_fsycl_device_only))
-      if (C.getDefaultToolChain().getTriple().getArch() == llvm::Triple::x86)
-        SYCLTargetArch = "spir";
-      else
-        SYCLTargetArch = "spir64";
-    else if (HasValidSYCLRuntime)
-      // Triple for -fintelfpga is spir64_fpga.
-      SYCLTargetArch = SYCLfpga ? "spir64_fpga" : "spir64";
-    if (!SYCLTargetArch.empty()) {
+    if (HasValidSYCLRuntime) {
+      StringRef SYCLTargetArch = getDefaultSYCLArch(C);
+      if (SYCLfpga)
+        // Triple for -fintelfpga is spir64_fpga.
+        SYCLTargetArch = "spir64_fpga";
       UniqueSYCLTriplesVec.push_back(MakeSYCLDeviceTriple(SYCLTargetArch));
       addSYCLDefaultTriple(C, UniqueSYCLTriplesVec);
     }
@@ -2861,7 +2863,7 @@ static bool hasSYCLDefaultSection(Compilation &C, const StringRef &File) {
   if (!(IsArchive || isObjectFile(File.str())))
     return false;
 
-  llvm::Triple TT(C.getDriver().MakeSYCLDeviceTriple("spir64"));
+  llvm::Triple TT(C.getDriver().MakeSYCLDeviceTriple(getDefaultSYCLArch(C)));
   // Checking uses -check-section option with the input file, no output
   // file and the target triple being looked for.
   const char *Targets =
@@ -3592,7 +3594,6 @@ class OffloadingActionBuilder final {
   class HIPActionBuilder final : public CudaActionBuilderBase {
     /// The linker inputs obtained for each device arch.
     SmallVector<ActionList, 8> DeviceLinkerInputs;
-    bool GPUSanitize;
     // The default bundling behavior depends on the type of output, therefore
     // BundleOutput needs to be tri-value: None, true, or false.
     // Bundle code objects except --no-gpu-output is specified for device
@@ -3605,8 +3606,6 @@ class OffloadingActionBuilder final {
                      const Driver::InputList &Inputs)
         : CudaActionBuilderBase(C, Args, Inputs, Action::OFK_HIP) {
       DefaultCudaArch = CudaArch::GFX803;
-      GPUSanitize = Args.hasFlag(options::OPT_fgpu_sanitize,
-                                 options::OPT_fno_gpu_sanitize, false);
       if (Args.hasArg(options::OPT_gpu_bundle_output,
                       options::OPT_no_gpu_bundle_output))
         BundleOutput = Args.hasFlag(options::OPT_gpu_bundle_output,
@@ -4949,7 +4948,8 @@ class OffloadingActionBuilder final {
         // -fsycl is provided without -fsycl-*targets.
         bool SYCLfpga = C.getInputArgs().hasArg(options::OPT_fintelfpga);
         // -fsycl -fintelfpga implies spir64_fpga
-        const char *SYCLTargetArch = SYCLfpga ? "spir64_fpga" : "spir64";
+        const char *SYCLTargetArch =
+            SYCLfpga ? "spir64_fpga" : getDefaultSYCLArch(C);
         llvm::Triple TT = C.getDriver().MakeSYCLDeviceTriple(SYCLTargetArch);
         auto TCIt = llvm::find_if(
             ToolChains, [&](auto &TC) { return TT == TC->getTriple(); });
