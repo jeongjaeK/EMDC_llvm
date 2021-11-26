@@ -11,5 +11,8 @@ Global repository
 ## how to use ##
 objcopy (binutils)
 
---update-section
+1. update unnessary section to empty file
+objcopy --update-section __CLANG_OFFLOAD_BUNDLE__sycl-spir64_fpga=/dev/null ${input} ${output}
 
+2. strip zero padding 
+strip ${output}
