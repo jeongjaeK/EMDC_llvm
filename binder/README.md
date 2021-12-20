@@ -1,11 +1,15 @@
 ### Binder ###
-The binder assembles compulsory components from FAT binary, includes all device codes for all heterogeneous accelerators supported by a EMDC, and those libraries.
+The binder assembles compulsory components from FAT binary, includes all device codes for all heterogeneous accelerators(Intel CPU, Intel GPU, Intel FPGA emu, Intel FPGA hw, NVIDIA GPU, AMD GPU, and Xilinx FPGA) supported by a edge micro data center(EMDC), and those runtime and library.
 
 ## components ##
-GNU Bin utility
-
+Binder ( may located in master node)
+SYCL compiler
+GNU BIN UTILITY
 Global repository
 
+Rebinder ( may located in every worker node)
+GNU BIN UTILITY
+Local repository cache
 
 
 ## how to use ##
