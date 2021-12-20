@@ -9172,7 +9172,8 @@ bool SpecialMemberDeletionInfo::shouldDeleteForField(FieldDecl *FD) {
       }
 
       // Don't check the implicit member of the anonymous union type.
-      // This is technically non-conformant, but sanity demands it.
+      // This is technically non-conformant but supported, and we have a
+      // diagnostic for this elsewhere.
       return false;
     }
 
@@ -12256,7 +12257,7 @@ NamedDecl *Sema::BuildUsingDeclaration(
   // Unlike most lookups, we don't always want to hide tag
   // declarations: tag names are visible through the using declaration
   // even if hidden by ordinary names, *except* in a dependent context
-  // where it's important for the sanity of two-phase lookup.
+  // where they may be used by two-phase lookup.
   if (!IsInstantiation)
     R.setHideTags(false);
 
@@ -16145,6 +16146,23 @@ Decl *Sema::ActOnStartLinkageSpecification(Scope *S, SourceLocation ExternLoc,
   LinkageSpecDecl *D = LinkageSpecDecl::Create(Context, CurContext, ExternLoc,
                                                LangStr->getExprLoc(), Language,
                                                LBraceLoc.isValid());
+
+  /// C++ [module.unit]p7.2.3
+  /// - Otherwise, if the declaration
+  ///   - ...
+  ///   - ...
+  ///   - appears within a linkage-specification,
+  ///   it is attached to the global module.
+  ///
+  /// If the declaration is already in global module fragment, we don't
+  /// need to attach it again.
+  if (getLangOpts().CPlusPlusModules && isCurrentModulePurview()) {
+    Module *GlobalModule =
+        PushGlobalModuleFragment(ExternLoc, /*IsImplicit=*/true);
+    D->setModuleOwnershipKind(Decl::ModuleOwnershipKind::ModulePrivate);
+    D->setLocalOwningModule(GlobalModule);
+  }
+
   CurContext->addDecl(D);
   PushDeclContext(S, D);
   return D;
@@ -16161,6 +16179,14 @@ Decl *Sema::ActOnFinishLinkageSpecification(Scope *S,
     LinkageSpecDecl* LSDecl = cast<LinkageSpecDecl>(LinkageSpec);
     LSDecl->setRBraceLoc(RBraceLoc);
   }
+
+  // If the current module doesn't has Parent, it implies that the
+  // LinkageSpec isn't in the module created by itself. So we don't
+  // need to pop it.
+  if (getLangOpts().CPlusPlusModules && getCurrentModule() &&
+      getCurrentModule()->isGlobalModule() && getCurrentModule()->Parent)
+    PopGlobalModuleFragment();
+
   PopDeclContext();
   return LinkageSpec;
 }

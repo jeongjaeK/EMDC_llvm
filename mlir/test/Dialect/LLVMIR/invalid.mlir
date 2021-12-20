@@ -495,21 +495,21 @@ func @null_non_llvm_type() {
 
 func @nvvm_invalid_shfl_pred_1(%arg0 : i32, %arg1 : i32, %arg2 : i32, %arg3 : i32) {
   // expected-error@+1 {{expected return type to be a two-element struct with i1 as the second element}}
-  %0 = nvvm.shfl.sync.bfly %arg0, %arg3, %arg1, %arg2 {return_value_and_is_valid} : i32
+  %0 = nvvm.shfl.sync "bfly" %arg0, %arg3, %arg1, %arg2 {return_value_and_is_valid} : i32 -> i32
 }
 
 // -----
 
 func @nvvm_invalid_shfl_pred_2(%arg0 : i32, %arg1 : i32, %arg2 : i32, %arg3 : i32) {
   // expected-error@+1 {{expected return type to be a two-element struct with i1 as the second element}}
-  %0 = nvvm.shfl.sync.bfly %arg0, %arg3, %arg1, %arg2 {return_value_and_is_valid} : !llvm.struct<(i32)>
+  %0 = nvvm.shfl.sync "bfly" %arg0, %arg3, %arg1, %arg2 {return_value_and_is_valid} : i32 -> !llvm.struct<(i32)>
 }
 
 // -----
 
 func @nvvm_invalid_shfl_pred_3(%arg0 : i32, %arg1 : i32, %arg2 : i32, %arg3 : i32) {
   // expected-error@+1 {{expected return type to be a two-element struct with i1 as the second element}}
-  %0 = nvvm.shfl.sync.bfly %arg0, %arg3, %arg1, %arg2 {return_value_and_is_valid} : !llvm.struct<(i32, i32)>
+  %0 = nvvm.shfl.sync "bfly" %arg0, %arg3, %arg1, %arg2 {return_value_and_is_valid} : i32 -> !llvm.struct<(i32, i32)>
 }
 
 // -----
@@ -1224,5 +1224,13 @@ llvm.func @callee() -> !llvm.struct<(i32, f32)>
 func @bitcast(%arg0: vector<2x3xf32>) {
   // expected-error @below {{op operand #0 must be LLVM-compatible non-aggregate type}}
   llvm.bitcast %arg0 : vector<2x3xf32> to vector<2x3xi32>
+  return
+}
+
+// -----
+
+func @cp_async(%arg0: !llvm.ptr<i8, 3>, %arg1: !llvm.ptr<i8, 1>) {
+  // expected-error @below {{expected byte size to be either 4, 8 or 16.}}
+  nvvm.cp.async.shared.global %arg0, %arg1, 32
   return
 }

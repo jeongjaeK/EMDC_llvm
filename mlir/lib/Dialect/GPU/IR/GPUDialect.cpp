@@ -302,7 +302,7 @@ static LogicalResult verifyShuffleOp(gpu::ShuffleOp shuffleOp) {
 }
 
 static void printShuffleOp(OpAsmPrinter &p, ShuffleOp op) {
-  p << ' ' << op.getOperands() << ' ' << op.mode() << " : "
+  p << ' ' << op.getOperands() << ' ' << stringifyEnum(op.mode()) << " : "
     << op.value().getType();
 }
 
@@ -1177,7 +1177,7 @@ struct SimplifyDimOfAllocOp : public OpRewritePattern<memref::DimOp> {
   }
 };
 
-} // end anonymous namespace.
+} // namespace
 
 void AllocOp::getCanonicalizationPatterns(RewritePatternSet &results,
                                           MLIRContext *context) {

@@ -75,6 +75,7 @@ inline static bool isGlobalStubReference(unsigned char TargetFlag) {
   switch (TargetFlag) {
   case X86II::MO_DLLIMPORT:               // dllimport stub.
   case X86II::MO_GOTPCREL:                // rip-relative GOT reference.
+  case X86II::MO_GOTPCREL_NORELAX:        // rip-relative GOT reference.
   case X86II::MO_GOT:                     // normal GOT reference.
   case X86II::MO_DARWIN_NONLAZY_PIC_BASE: // Normal $non_lazy_ptr ref.
   case X86II::MO_DARWIN_NONLAZY:          // Normal $non_lazy_ptr ref.
@@ -642,8 +643,7 @@ private:
   ///   CMP %1, %2   and  %3 = SUB %2, %1  ; IsSwapped=true
   bool isRedundantFlagInstr(const MachineInstr &FlagI, Register SrcReg,
                             Register SrcReg2, int64_t ImmMask, int64_t ImmValue,
-                            const MachineInstr &OI, bool *IsSwapped,
-                            int64_t *ImmDelta) const;
+                            const MachineInstr &OI, bool *IsSwapped) const;
 };
 
 } // namespace llvm
