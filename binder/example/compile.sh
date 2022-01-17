@@ -8,10 +8,11 @@ TRT_DEV=spir64_x86_64,spir64_gen,spir64_fpga,nvptx64_nvidia
 
 ### Compile sycl code for multiple target devices with specified section start addresses ###
 clang++ -fsycl -fsycl-targets=$TRT_DEV \
-	-Xlinker --section-start=__CLANG_OFFLOAD_BUNDLE__sycl-spir64_x86_64=0x5000000 \
-	-Xlinker --section-start=__CLANG_OFFLOAD_BUNDLE__sycl-spir64_gen=0x6000000 \
-	-Xlinker --section-start=__CLANG_OFFLOAD_BUNDLE__sycl-spir64_fpga=0x7000000 \
-	-Xlinker --section-start=__CLANG_OFFLOAD_BUNDLE__sycl-nvptx64-nvidia=0x8000000 \
+	-Xlinker --section-start -Xlinker __CLANG_OFFLOAD_BUNDLE__sycl-spir64_x86_64=0x5000000 \
+	-Xlinker --section-start -Xlinker __CLANG_OFFLOAD_BUNDLE__sycl-spir64_gen=0x6000000 \
+	-Xlinker --section-start -Xlinker __CLANG_OFFLOAD_BUNDLE__sycl-spir64_fpga=0x7000000 \
+	-Xlinker --section-start -Xlinker __CLANG_OFFLOAD_BUNDLE__sycl-nvptx64-nvidia-cuda=0x8000000 \
+	-z max-page-size=4096 \
 	$SRC -o $OUTPUT
 
 ### for validation ###
@@ -22,7 +23,7 @@ readelf -SWl $OUTPUT
 objcopy --dump-section __CLANG_OFFLOAD_BUNDLE__sycl-spir64_x86_64=spir64_x86_64.sec $OUTPUT
 objcopy --dump-section __CLANG_OFFLOAD_BUNDLE__sycl-spir64_gen=spir64_gen.sec $OUTPUT
 objcopy --dump-section __CLANG_OFFLOAD_BUNDLE__sycl-spir64_fpga=spir64_fpga.sec $OUTPUT
-objcopy --dump-section __CLANG_OFFLOAD_BUNDLE__sycl-nvptx64-nvidia=nvptx64-nvidia.sec $OUTPUT
+objcopy --dump-section __CLANG_OFFLOAD_BUNDLE__sycl-nvptx64=nvptx64-nvidia.sec $OUTPUT
 
 ### strip ###
 strip $OUTPUT
