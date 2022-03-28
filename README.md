@@ -21,15 +21,9 @@ e.g. clang++ -fsycl -fsycl-targets=[backend list] main.cpp -Xlink [linker arg] (
     [address] should be greater than any other section's address
  
 ## Work-in-progress ##
-Implementing SYCL ELF strip tool.
-
-0. parse arguments 
-1. validate if the input,sycl ELF, is ready for dynamic rebinding
-    file offsets of clang offload sections should be greater than other sections will be loaded into memory. 
-3. dump contents of not selected clang offload sections.
-  --dump-section <other clang sections>
-4. empty the selected section(s)
-5. save stripped sycl elf 
+Write compiler script template
+OR
+Modify linker script
   
     
     
