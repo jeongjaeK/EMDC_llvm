@@ -7,7 +7,7 @@ ACTION_SCRIPT=action.sh
 wsk action delete $ACTION_NAME
 
 #create new action with action script as action name
-wsk action create $ACTION_NAME $ACTION_SCRIPT --native
+wsk action create $ACTION_NAME $ACTION_SCRIPT --docker openwhisk/dockerskeleton
 
 #invoke the action and print the result
 wsk action invoke $ACTION_NAME --result
