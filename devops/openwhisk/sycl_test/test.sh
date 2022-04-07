@@ -6,7 +6,7 @@ ACTION=Action.zip
 #rm exec
 
 SRC=main.cpp
-#clang++ -fsycl -fsycl-targets=spir64_x86_64,spir64_fpga,nvptx64-nvidia-cuda $SRC -o exec
+clang++ -fsycl -fsycl-targets=spir64_x86_64,spir64_fpga,nvptx64-nvidia-cuda $SRC -o exec.exe
 zip $ACTION exec exec.exe
 
 wsk action delete $ACTION_NAME

@@ -38,7 +38,11 @@ int main() {
 	}
 
 	if (!MismatchFound) {
-		std::cout << "{\"msg\": \"res:" << "The results are correct!\"}" << std::endl;
+		std::cout << "{\"msg\": \"The results are correct!\"}";
+	}
+	else {
+	
+		std::cout << "{\"msg\": \"The results are wrong!\"}";
 	}
 
 	return MismatchFound;

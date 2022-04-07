@@ -136,7 +136,8 @@ class ActionRunner:
                     stdin=subprocess.PIPE,
                     stdout=subprocess.PIPE,
                     stderr=subprocess.PIPE,
-                    env=env)
+                   # env=env,
+                    shell=True)
             else:
                 # pass argument via stdin and command parameter
                 p = subprocess.Popen(
@@ -144,7 +145,8 @@ class ActionRunner:
                     stdin=subprocess.PIPE,
                     stdout=subprocess.PIPE,
                     stderr=subprocess.PIPE,
-                    env=env)
+                    #env=env,
+                    shell=True)
             # run the process and wait until it completes.
             # stdout/stderr will always be set because we passed PIPEs to Popen
             (o, e) = p.communicate(input=input.encode())
@@ -215,7 +217,7 @@ def setRunner(r):
     runner = r
 
 
-@proxy.route('/init', methods=['POST'])
+@proxy.route('/init', methods=['POST','GET'])
 def init():
     if proxy.rejectReinit is True and proxy.initialized is True:
         msg = 'Cannot initialize the action more than once.'
@@ -247,7 +249,7 @@ def init():
         return complete(response)
 
 
-@proxy.route('/run', methods=['POST'])
+@proxy.route('/run', methods=['POST','GET'])
 def run():
     def error():
         response = flask.jsonify({'error': 'The action did not receive a dictionary as an argument.'})

@@ -1,6 +1,9 @@
-#!/bin/bash
+#! /bin/bash
+chmod +x /action/exec.exe
 
-chmod +x exec.exe
-./exec.exe > out.txt
-sleep 1
-echo "{ \"msg\": \"res: $(cat out.txt) \"           }"
+export PATH=/root/llvm/build/bin:$PATH
+export LD_LIBRARY_PATH=/root/llvm/build/lib:$LD_LIBRARY_PATH
+SYCL_DEVICE_FILTER=cpu ./exec.exe
+#./exec.exe
+#echo "{\"msg\": \"res: $(cat f1) $(cat f2) $(printenv PATH)  \" }"
+#echo "{\"msg\": \"res: $(printenv PATH)  \" }"
