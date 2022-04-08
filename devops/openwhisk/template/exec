@@ -1,0 +1,17 @@
+#! /bin/bash
+apt install jq -y
+chmod +x /action/exec.exe
+
+
+export PATH=/root/llvm/build/bin:$PATH
+export LD_LIBRARY_PATH=/root/llvm/build/lib:$LD_LIBRARY_PATH
+
+SYCL_DEVICE_FILTER=$(jq -r '(.SYCL_DEVICE_FILTER)')
+
+./exec.exe > f1
+
+echo "{ \"device\" : \"dev=$(echo $SYCL_DEVICE_FILTER) \", \"msg\": \"$(cat f1) \"    }"
+
+#./exec.exe
+#echo "{\"msg\": \"res: $(cat f1) $(cat f2) $(printenv PATH)  \" }"
+#echo "{\"msg\": \"res: $(printenv PATH)  \" }"
