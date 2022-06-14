@@ -1,1 +1,18 @@
 NVIDIA UVM(Unified Virtual Memory)
+-------------------------------------------------------------
+
+- The UVM architecture
+    - Server-client architecture
+    - Server: host driver serves as a runtime page fault servicing engine for all clients and the memory manager for managed memory allocation
+    - Client: user-level GPU or host code
+    - Any activate thread on the GPU can trigger a page fault
+        - The page fault is recognized and handled by the hardware thread’s corresponding micro-TLB(each GPC has a private L1 micro-TLB)
+        - The thread treats this scenario as any other outstanding memory request
+    - GMMU propagates the fault
+        - sends a hardware interrupt to the host
+        - writes the fault information into the GPU Fault Buffer
+        - The Fault Buffer acts as a circular array, configured and managed by the UVM driver
+    - The UVM driver fetches the fault information, cache it on the host, and services the faults
+    - The GPU exposed two functionalities to the host
+        - the GPU command push-buffer —host-to-GPU memory copy
+        - fault replay *[HPCA’16 Towards High Performance Paged Memory for GPUs]*
