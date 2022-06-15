@@ -16,3 +16,15 @@ NVIDIA UVM(Unified Virtual Memory)
     - The GPU exposed two functionalities to the host
         - the GPU command push-buffer —host-to-GPU memory copy
         - fault replay *[HPCA’16 Towards High Performance Paged Memory for GPUs]*
+- Fault batching and handling
+    - The nvidia-uvm driver groups outstanding faults into batches in the host-side cache
+    - Fault delivery to the host requires two steps
+        - The GPU sends an interrupt over the interconnect to alert the host UVM driver of a page fault
+        - The host retrieves the fault information from the GPU fault buffer
+    - The interrupt wakes up a worker thread if none are awake
+    - The default fault retrieval policy is to read faults until the batch size limit(up to a maximum size of 256 faults)  is reached or no more faults remain in the buffer
+    - UVM adopts the host OS’s page size for migration and tracking
+        - 4KB pages for x86 and 64KB for Power9
+        - Additional internal abstraction for management and performance consideration. For x86, pages are upgraded from 4KB to 64KB within UVM runtime as a component of prefetching
+        - 2MB VABlock(Virtual Address Block) serves as logical boundaries and is a unit of eviction
+
