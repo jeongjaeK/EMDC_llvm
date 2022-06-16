@@ -27,4 +27,20 @@ NVIDIA UVM(Unified Virtual Memory)
         - 4KB pages for x86 and 64KB for Power9
         - Additional internal abstraction for management and performance consideration. For x86, pages are upgraded from 4KB to 64KB within UVM runtime as a component of prefetching
         - 2MB VABlock(Virtual Address Block) serves as logical boundaries and is a unit of eviction
-
+- Fairness on batching
+    - The maximum number of outstanding faults per micro-TLB is 56 on Titan V architecture
+    - The rate-limiting on SMs shows SMs are served relatively fairly
+    - PTX-level instruction can avoid both limits, *prefetch.global.L2*
+- UVM driver workload
+    - Data movement (~25%, sgemm)
+    - Fault duplicates
+    - Fault distribution/access pattern
+    - Host OS interaction
+        - page unmapping represents a significant portion of execution time for many batches
+        - certain host-side parallelization of an application using UVM can exaggerate these unmapping costs
+- Access Counters
+    - Volta+Power
+    - Not visible in A100+x86
+- Advise
+    - cudaMemAdvise( void **ptr, size_t count, flag, deviceId)
+    - cudaMemAdviseSetPreferredLocation: set preferred location, no migration into not preferred location
