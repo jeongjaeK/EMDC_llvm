@@ -1,13 +1,34 @@
 - Memory allocation (in high-level)
-    - cudaMalloc: on the device
-    - cudaMalloc3D: 1D, 2D, or 3D memory objects on the device
-    - cudaMalloc3DArray: an array on the device
-    - cudaMallocArray: an array on the device
-    - cudaMallocHost: page-locked memory on the host
-    - cudaMallocManaged: unified memory system
-    - cudaMallocMipmappedArray: Mipmaps are pre-calculated, optimized sequences of images
-    - cudaMallocPitch: Padding
+	- cudaMalloc: on the device
+	- cudaMalloc3D: 1D, 2D, or 3D memory objects on the device
+	- cudaMalloc3DArray: an array on the device
+	- cudaMallocArray: an array on the device
+	- cudaMallocHost: page-locked memory on the host
+	- cudaMallocManaged: unified memory system
+	- cudaMallocMipmappedArray: Mipmaps are pre-calculated, optimized sequences of images
+	- cudaMallocPitch: Padding
+
 - Low-level memory management
-    - cuMemCreate: Creates a physical memory handle
-        - This function takes the handle CUmemGenericAllocationHandle
-        - Unlike cuMemAlloc, cuMemCreate only accepts aligned size
+	- cuMemCreate: Creates a physical memory handle
+		- This function takes the handle CUmemGenericAllocationHandle
+		- Unlike cuMemAlloc, cuMemCreate only accepts aligned size
+		{
+			size_t granularity =0;
+			CUmemGenericAllocationHandle allocHandle;
+			CUmemAllocationProp prop = {};
+			prop.type = CU_MEM_ALLOCATION_TYPE_PINNED;
+			prop.location.type = CU_MEM_LOCATION_TYPE_DEVICE;
+			prop.location.id = currentDev;
+			cuMemGetAllocationGranularity(&granularity, &prop, CU_MEM_ALLOC_GRANULARITY_MINIMUM);
+			padded_size = ROUND_UP(size, granularity);
+			cuMemCreate(&allocHandle, padded_size, &prop, 0);
+		}
+	- cuMemAddressReserve: returns a suitable address
+	- cuMemMap: maps the physical handle to the address
+	{
+		/* Reserve a virtual address range */
+		cuMemAddressReserve(&ptr, padded_size,0,0,0);
+		/* Map the virtual address range
+		 * to the physical allocation */
+		cuMemMap(ptr, padded_size,0, allocHandle,0);
+	}
