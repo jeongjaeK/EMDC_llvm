@@ -1,0 +1,23 @@
+Analysis of interference 
+--------------------------------------------
+
+1. full interference
+Two+ functions are invoked at the same time.
+
+
+2. partial interference
+Two+ functions are overlapped but not are invoked at the same time.
+
+L Zhao. et al. "Understanding, Predicting and Scheduling Serverless Workloads under Partial Interference"
+Observation 1. High volatility
+
+Observation 2. Spatial variation
+
+Observation 3. Temporal variation
+
+Observation 4. Hotspot propagation
+
+Observation 5. Restoring propagation
+
+
+
