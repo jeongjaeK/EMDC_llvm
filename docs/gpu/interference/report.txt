@@ -1,11 +1,21 @@
 Analysis of interference 
 --------------------------------------------
 
-1. full interference
+A. full interference
 Two+ functions are invoked at the same time.
 
+Measure API level interference
+0. Synchronize among #of processes.
+   include boost/interprocess/managed_shared_memory.hpp
+   1) instanciate barrier using managed_shared_memory with #of processes
+   2) atomic descrease the barrier per each process
 
-2. partial interference
+1. Call the target API
+	1) blocked APIs
+	2) non-blocked APIs
+
+
+B. partial interference
 Two+ functions are overlapped but not are invoked at the same time.
 
 L Zhao. et al. "Understanding, Predicting and Scheduling Serverless Workloads under Partial Interference"
