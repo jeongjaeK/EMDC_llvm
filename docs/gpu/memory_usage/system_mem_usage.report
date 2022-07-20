@@ -1,0 +1,37 @@
+System GPU memory usage
+
+461MiB per CUDA process (w/o kernel call, 414MiB) on A100 108 SMs 40GB GPU.
+
+Reserved memory for management[1]
+- Synchronization (up to 840MB, when calling cudaDeviceSynchronize() )
+- Pending Kernel Launch(fixed size launch pool, virtualized launch pool)
+- printf FIFO buffer
+
+CUDA stack
+- per-thread stack
+- default size = 1024, min = 16
+
+
+Configuable by CUDA runtime/device API
+- cudaDeviceSetLimit( cudaLimit limit, size_t value)
+
+cudaLimit :
+	- cudaLimitStackSize : default=1024, min=16
+	- cudaLimitPrintfFifoSize 
+	- cudaMallocHeapSize : default=8MB
+	- cudaLimitDeviceRuntimeSyncDepth : 1~24
+	- cudaLimitDevRuntimePendingLaunchCount : default=2048
+
+
+
+
+
+
+
+
+
+
+
+
+Reference
+[1] CUDA programming guide, D.4.3.1.1. Memory Footprint
