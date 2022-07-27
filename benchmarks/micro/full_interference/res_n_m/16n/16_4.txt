@@ -1,0 +1,192 @@
+size : 64 KBThe barrier counter: 0
+size : 64 KBThe barrier counter: 10
+size : 64 KBThe barrier counter: 6
+size : 64 KBThe barrier counter: 12
+size : 64 KBThe barrier counter: 2
+size : 64 KBThe barrier counter: 11
+size : 64 KBThe barrier counter: 7
+size : 64 KBThe barrier counter: 8
+size : 64 KBThe barrier counter: 9
+size : 64 KBThe barrier counter: 1
+size : 64 KBThe barrier counter: 3
+size : 64 KBThe barrier counter: 14
+size : 64 KBThe barrier counter: 13
+size : 64 KBThe barrier counter: 15
+size : 64 KBThe barrier counter: 4
+size : 64 KBThe barrier counter: 5
+
+
+CUDA API Statistics:
+
+ Time(%)  Total Time (ns)  Num Calls  Average (ns)   Minimum (ns)  Maximum (ns)  StdDev (ns)        Name      
+ -------  ---------------  ---------  -------------  ------------  ------------  -----------  ----------------
+    99.1      704,206,310          1  704,206,310.0   704,206,310   704,206,310          0.0  cudaFreeArray   
+     0.6        4,540,113          1    4,540,113.0     4,540,113     4,540,113          0.0  cudaMalloc      
+     0.3        1,948,614          1    1,948,614.0     1,948,614     1,948,614          0.0  cudaFree        
+     0.0            3,306          1        3,306.0         3,306         3,306          0.0  cuCtxSynchronize
+
+
+CUDA API Statistics:
+
+ Time(%)  Total Time (ns)  Num Calls   Average (ns)    Minimum (ns)   Maximum (ns)   StdDev (ns)        Name      
+ -------  ---------------  ---------  ---------------  -------------  -------------  -----------  ----------------
+    99.4    1,045,009,752          1  1,045,009,752.0  1,045,009,752  1,045,009,752          0.0  cudaFreeArray   
+     0.4        4,306,200          1      4,306,200.0      4,306,200      4,306,200          0.0  cudaMalloc      
+     0.2        1,895,304          1      1,895,304.0      1,895,304      1,895,304          0.0  cudaFree        
+     0.0            3,655          1          3,655.0          3,655          3,655          0.0  cuCtxSynchronize
+
+
+
+
+CUDA API Statistics:
+
+ Time(%)  Total Time (ns)  Num Calls   Average (ns)    Minimum (ns)   Maximum (ns)   StdDev (ns)        Name      
+ -------  ---------------  ---------  ---------------  -------------  -------------  -----------  ----------------
+    99.5    1,191,146,820          1  1,191,146,820.0  1,191,146,820  1,191,146,820          0.0  cudaFreeArray   
+     0.3        4,055,384          1      4,055,384.0      4,055,384      4,055,384          0.0  cudaMalloc      
+     0.1        1,611,822          1      1,611,822.0      1,611,822      1,611,822          0.0  cudaFree        
+     0.0            4,273          1          4,273.0          4,273          4,273          0.0  cuCtxSynchronize
+
+
+CUDA API Statistics:
+
+ Time(%)  Total Time (ns)  Num Calls   Average (ns)    Minimum (ns)   Maximum (ns)   StdDev (ns)        Name      
+ -------  ---------------  ---------  ---------------  -------------  -------------  -----------  ----------------
+    99.5    1,298,224,511          1  1,298,224,511.0  1,298,224,511  1,298,224,511          0.0  cudaFreeArray   
+     0.3        4,486,116          1      4,486,116.0      4,486,116      4,486,116          0.0  cudaMalloc      
+     0.1        1,779,089          1      1,779,089.0      1,779,089      1,779,089          0.0  cudaFree        
+     0.0            3,823          1          3,823.0          3,823          3,823          0.0  cuCtxSynchronize
+
+
+CUDA API Statistics:
+
+ Time(%)  Total Time (ns)  Num Calls  Average (ns)   Minimum (ns)  Maximum (ns)  StdDev (ns)        Name      
+ -------  ---------------  ---------  -------------  ------------  ------------  -----------  ----------------
+    99.4      996,246,953          1  996,246,953.0   996,246,953   996,246,953          0.0  cudaFreeArray   
+     0.4        4,081,352          1    4,081,352.0     4,081,352     4,081,352          0.0  cudaMalloc      
+     0.2        1,636,424          1    1,636,424.0     1,636,424     1,636,424          0.0  cudaFree        
+     0.0            3,489          1        3,489.0         3,489         3,489          0.0  cuCtxSynchronize
+
+
+
+
+
+CUDA API Statistics:
+
+ Time(%)  Total Time (ns)  Num Calls   Average (ns)    Minimum (ns)   Maximum (ns)   StdDev (ns)        Name      
+ -------  ---------------  ---------  ---------------  -------------  -------------  -----------  ----------------
+    99.5    1,163,495,890          1  1,163,495,890.0  1,163,495,890  1,163,495,890          0.0  cudaFreeArray   
+     0.4        4,149,558          1      4,149,558.0      4,149,558      4,149,558          0.0  cudaMalloc      
+     0.2        1,767,235          1      1,767,235.0      1,767,235      1,767,235          0.0  cudaFree        
+     0.0            3,572          1          3,572.0          3,572          3,572          0.0  cuCtxSynchronize
+
+
+CUDA API Statistics:
+
+ Time(%)  Total Time (ns)  Num Calls   Average (ns)    Minimum (ns)   Maximum (ns)   StdDev (ns)        Name      
+ -------  ---------------  ---------  ---------------  -------------  -------------  -----------  ----------------
+    99.5    1,119,933,044          1  1,119,933,044.0  1,119,933,044  1,119,933,044          0.0  cudaFreeArray   
+     0.3        3,907,905          1      3,907,905.0      3,907,905      3,907,905          0.0  cudaMalloc      
+     0.1        1,667,665          1      1,667,665.0      1,667,665      1,667,665          0.0  cudaFree        
+     0.0            4,180          1          4,180.0          4,180          4,180          0.0  cuCtxSynchronize
+
+
+CUDA API Statistics:
+
+ Time(%)  Total Time (ns)  Num Calls   Average (ns)    Minimum (ns)   Maximum (ns)   StdDev (ns)        Name      
+ -------  ---------------  ---------  ---------------  -------------  -------------  -----------  ----------------
+    99.5    1,131,151,752          1  1,131,151,752.0  1,131,151,752  1,131,151,752          0.0  cudaFreeArray   
+     0.4        4,134,551          1      4,134,551.0      4,134,551      4,134,551          0.0  cudaMalloc      
+     0.2        1,914,931          1      1,914,931.0      1,914,931      1,914,931          0.0  cudaFree        
+     0.0            3,390          1          3,390.0          3,390          3,390          0.0  cuCtxSynchronize
+
+
+CUDA API Statistics:
+
+ Time(%)  Total Time (ns)  Num Calls  Average (ns)   Minimum (ns)  Maximum (ns)  StdDev (ns)        Name      
+ -------  ---------------  ---------  -------------  ------------  ------------  -----------  ----------------
+
+
+CUDA API Statistics:
+
+ Time(%)  Total Time (ns)  Num Calls  Average (ns)   Minimum (ns)  Maximum (ns)  StdDev (ns)        Name      
+    97.6      214,431,459          1  214,431,459.0   214,431,459   214,431,459          0.0  cudaFreeArray   
+ -------  ---------------  ---------  -------------  ------------  ------------  -----------  ----------------
+     1.6        3,558,008          1    3,558,008.0     3,558,008     3,558,008          0.0  cudaMalloc      
+    99.2      754,647,730          1  754,647,730.0   754,647,730   754,647,730          0.0  cudaFreeArray   
+     0.8        1,667,469          1    1,667,469.0     1,667,469     1,667,469          0.0  cudaFree        
+     0.6        4,209,535          1    4,209,535.0     4,209,535     4,209,535          0.0  cudaMalloc      
+     0.0            4,038          1        4,038.0         4,038         4,038          0.0  cuCtxSynchronize
+     0.2        1,895,775          1    1,895,775.0     1,895,775     1,895,775          0.0  cudaFree        
+     0.0            3,511          1        3,511.0         3,511         3,511          0.0  cuCtxSynchronize
+
+
+
+CUDA API Statistics:
+
+ Time(%)  Total Time (ns)  Num Calls  Average (ns)   Minimum (ns)  Maximum (ns)  StdDev (ns)        Name      
+ -------  ---------------  ---------  -------------  ------------  ------------  -----------  ----------------
+    99.3      791,646,121          1  791,646,121.0   791,646,121   791,646,121          0.0  cudaFreeArray   
+     0.5        4,114,707          1    4,114,707.0     4,114,707     4,114,707          0.0  cudaMalloc      
+     0.2        1,652,704          1    1,652,704.0     1,652,704     1,652,704          0.0  cudaFree        
+     0.0            3,596          1        3,596.0         3,596         3,596          0.0  cuCtxSynchronize
+
+
+
+CUDA API Statistics:
+
+ Time(%)  Total Time (ns)  Num Calls   Average (ns)    Minimum (ns)   Maximum (ns)   StdDev (ns)        Name      
+ -------  ---------------  ---------  ---------------  -------------  -------------  -----------  ----------------
+    99.5    1,141,079,410          1  1,141,079,410.0  1,141,079,410  1,141,079,410          0.0  cudaFreeArray   
+     0.4        4,175,420          1      4,175,420.0      4,175,420      4,175,420          0.0  cudaMalloc      
+     0.2        1,897,019          1      1,897,019.0      1,897,019      1,897,019          0.0  cudaFree        
+     0.0            3,343          1          3,343.0          3,343          3,343          0.0  cuCtxSynchronize
+
+
+CUDA API Statistics:
+
+ Time(%)  Total Time (ns)  Num Calls  Average (ns)   Minimum (ns)  Maximum (ns)  StdDev (ns)        Name      
+ -------  ---------------  ---------  -------------  ------------  ------------  -----------  ----------------
+    99.3      876,768,902          1  876,768,902.0   876,768,902   876,768,902          0.0  cudaFreeArray   
+     0.5        4,566,818          1    4,566,818.0     4,566,818     4,566,818          0.0  cudaMalloc      
+     0.2        1,984,800          1    1,984,800.0     1,984,800     1,984,800          0.0  cudaFree        
+     0.0            3,851          1        3,851.0         3,851         3,851          0.0  cuCtxSynchronize
+
+
+CUDA API Statistics:
+
+ Time(%)  Total Time (ns)  Num Calls  Average (ns)   Minimum (ns)  Maximum (ns)  StdDev (ns)        Name      
+ -------  ---------------  ---------  -------------  ------------  ------------  -----------  ----------------
+    99.4      964,357,484          1  964,357,484.0   964,357,484   964,357,484          0.0  cudaFreeArray   
+     0.4        4,023,873          1    4,023,873.0     4,023,873     4,023,873          0.0  cudaMalloc      
+     0.2        1,598,631          1    1,598,631.0     1,598,631     1,598,631          0.0  cudaFree        
+     0.0            4,290          1        4,290.0         4,290         4,290          0.0  cuCtxSynchronize
+
+
+
+CUDA API Statistics:
+
+ Time(%)  Total Time (ns)  Num Calls  Average (ns)   Minimum (ns)  Maximum (ns)  StdDev (ns)        Name      
+ -------  ---------------  ---------  -------------  ------------  ------------  -----------  ----------------
+    99.3      847,526,424          1  847,526,424.0   847,526,424   847,526,424          0.0  cudaFreeArray   
+     0.5        4,271,424          1    4,271,424.0     4,271,424     4,271,424          0.0  cudaMalloc      
+     0.2        1,871,357          1    1,871,357.0     1,871,357     1,871,357          0.0  cudaFree        
+     0.0            3,858          1        3,858.0         3,858         3,858          0.0  cuCtxSynchronize
+
+
+
+CUDA API Statistics:
+
+ Time(%)  Total Time (ns)  Num Calls  Average (ns)   Minimum (ns)  Maximum (ns)  StdDev (ns)        Name      
+ -------  ---------------  ---------  -------------  ------------  ------------  -----------  ----------------
+    99.3      897,189,033          1  897,189,033.0   897,189,033   897,189,033          0.0  cudaFreeArray   
+     0.5        4,489,614          1    4,489,614.0     4,489,614     4,489,614          0.0  cudaMalloc      
+     0.2        2,007,224          1    2,007,224.0     2,007,224     2,007,224          0.0  cudaFree        
+     0.0            3,897          1        3,897.0         3,897         3,897          0.0  cuCtxSynchronize
+
+
+
+
+
+
+

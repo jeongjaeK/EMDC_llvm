@@ -1,0 +1,46 @@
+setting device 0 with name NVIDIA A100-PCIE-40GB
+GPU Runtime: 0.016763s
+CPU Runtime: 0.000000s
+Non-Matching CPU-GPU Outputs Beyond Error Threshold of 0.05 Percent: 4192256
+
+
+CUDA API Statistics:
+
+ Time(%)  Total Time (ns)  Num Calls  Average (ns)   Minimum (ns)  Maximum (ns)  StdDev (ns)          Name         
+ -------  ---------------  ---------  -------------  ------------  ------------  -----------  ---------------------
+    66.7      307,491,707          1  307,491,707.0   307,491,707   307,491,707          0.0  cudaFreeArray        
+    18.8       86,445,368          6   14,407,561.3     8,599,355    22,446,413  5,364,494.4  cudaMallocHost       
+     4.5       20,870,446          6    3,478,407.7     3,393,142     3,570,768     74,649.1  cudaFreeHost         
+     3.9       17,818,886          6    2,969,814.3     1,296,800     4,852,821  1,720,287.3  cudaMemcpy           
+     3.6       16,714,334          2    8,357,167.0     5,991,777    10,722,557  3,345,166.6  cudaDeviceSynchronize
+     1.6        7,304,553          5    1,460,910.6       325,786     2,123,151    738,768.2  cudaMalloc           
+     0.9        4,178,962          5      835,792.4       359,034     1,324,197    349,945.6  cudaFree             
+     0.0           44,059          2       22,029.5        10,117        33,942     16,846.8  cudaLaunchKernel     
+
+
+
+CUDA Kernel Statistics:
+
+ Time(%)  Total Time (ns)  Instances  Average (ns)  Minimum (ns)  Maximum (ns)  StdDev (ns)                   Name                 
+ -------  ---------------  ---------  ------------  ------------  ------------  -----------  --------------------------------------
+    50.4        5,426,424          1   5,426,424.0     5,426,424     5,426,424          0.0  mm2_kernel2(float *, float *, float *)
+    49.6        5,349,751          1   5,349,751.0     5,349,751     5,349,751          0.0  mm2_kernel1(float *, float *, float *)
+
+
+
+CUDA Memory Operation Statistics (by time):
+
+ Time(%)  Total Time (ns)  Count  Average (ns)  Minimum (ns)  Maximum (ns)  StdDev (ns)      Operation     
+ -------  ---------------  -----  ------------  ------------  ------------  -----------  ------------------
+    90.6       12,279,094      5   2,455,818.8     1,364,518     3,481,712  1,019,489.3  [CUDA memcpy HtoD]
+     9.4        1,273,638      1   1,273,638.0     1,273,638     1,273,638          0.0  [CUDA memcpy DtoH]
+
+
+
+CUDA Memory Operation Statistics (by size):
+
+ Total (MB)  Count  Average (MB)  Minimum (MB)  Maximum (MB)  StdDev (MB)      Operation     
+ ----------  -----  ------------  ------------  ------------  -----------  ------------------
+     83.886      5        16.777        16.777        16.777        0.000  [CUDA memcpy HtoD]
+     16.777      1        16.777        16.777        16.777        0.000  [CUDA memcpy DtoH]
+

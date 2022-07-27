@@ -1,0 +1,11 @@
+The barrier counter: 8
+
+
+CUDA API Statistics:
+
+ Time(%)  Total Time (ns)  Num Calls  Average (ns)   Minimum (ns)  Maximum (ns)  StdDev (ns)      Name     
+ -------  ---------------  ---------  -------------  ------------  ------------  -----------  -------------
+    91.5      175,744,165          1  175,744,165.0   175,744,165   175,744,165          0.0  cudaFreeArray
+     4.4        8,511,149          1    8,511,149.0     8,511,149     8,511,149          0.0  cudaMalloc   
+     4.0        7,712,810          1    7,712,810.0     7,712,810     7,712,810          0.0  cudaFree     
+
