@@ -4,6 +4,7 @@
 	- cudaMalloc3DArray: an array on the device
 	- cudaMallocArray: an array on the device
 	- cudaMallocHost: page-locked memory on the host
+	- cudaHostRegister: page-lock a memory that is already allocated on the host
 	- cudaMallocManaged: unified memory system
 	- cudaMallocMipmappedArray: Mipmaps are pre-calculated, optimized sequences of images
 	- cudaMallocPitch: Padding
