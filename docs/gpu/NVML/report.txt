@@ -6,5 +6,7 @@ NVIDIA Management Library
     - nvmlDeviceGetHandleByIndex(0, &dev_id_nvml); // GPU 0, nvmlDevice_t dev_id_nvml;
 3. Query memory info
     - nvmlDeviceGetMemoryInfo(dev_id_nvml, &mem_info_nvml); // nvmlMemory_t mem_info_nvml;
-4. clear
+4. Get index of device
+    - nvmlDeviceGetIndex(dev_id_nvml, &index); // unsigned int index;
+5. clear
     - nvmlShutdown();
