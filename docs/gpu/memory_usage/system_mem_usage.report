@@ -19,7 +19,7 @@ cudaLimit :
 	- cudaLimitStackSize : default=1024, min=16
 	- cudaLimitPrintfFifoSize 
 	- cudaMallocHeapSize : default=8MB
-	- cudaLimitDeviceRuntimeSyncDepth : 1~24
+	- cudaLimitDevRuntimeSyncDepth : 1~24
 	- cudaLimitDevRuntimePendingLaunchCount : default=2048
 
 
