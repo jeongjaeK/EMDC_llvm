@@ -1,0 +1,16 @@
+nvGpuOpsGpuMalloc(struct gpuAddressSpace *vaSpace, NvBool isSystemMemory, NvLength length, NvU64 *gpuOffset, struct allocFlags flags, gpuAllocInfo *allocInfo)
+// defined in https://github.com/NVIDIA/open-gpu-kernel-modules/blob/main/src/nvidia/src/kernel/rmapi/nv_gpu_ops.c
+
+{
+	...
+	//Allocate physical memory first.
+	nvGpuOpsAllocPhysical(vaSpace->device, isSystemMemory, length, &paOffset, allocInfo);
+
+	...
+	//Allocate virtual memory
+	nvGpuOpsAllocVirtual(vaSpace, length, &vaOffset, paMemDescHandle, flags, &vaAllocInfo);
+
+	//Map PMem and VMem
+	nvGpuOpsMapGpuMemory(vaSpace, vaOffset, length, allocInfo->pageSize, gpuOffset, flags);
+
+}
