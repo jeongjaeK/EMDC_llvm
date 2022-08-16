@@ -14,3 +14,18 @@ nvGpuOpsGpuMalloc(struct gpuAddressSpace *vaSpace, NvBool isSystemMemory, NvLeng
 	nvGpuOpsMapGpuMemory(vaSpace, vaOffset, length, allocInfo->pageSize, gpuOffset, flags);
 
 }
+
+
+#L109 // LOCK: acquire device lock
+
+[https://github.com/NVIDIA/open-gpu-kernel-modules/blob/main/src/nvidia/src/kernel/mem_mgr/virtual_mem.c](https://github.com/NVIDIA/open-gpu-kernel-modules/blob/main/src/nvidia/src/kernel/mem_mgr/virtual_mem.c)
+
+#L116 //LOCK and UNLOCK
+
+what if LOCK until the allocation is finished?
+
+[https://github.com/NVIDIA/open-gpu-kernel-modules/blob/main/src/nvidia/src/kernel/mem_mgr/video_mem.c](https://github.com/NVIDIA/open-gpu-kernel-modules/blob/main/src/nvidia/src/kernel/mem_mgr/video_mem.c)
+
+#L552 //pmaAllocatePages
+
+[https://github.com/NVIDIA/open-gpu-kernel-modules/blob/main/src/nvidia/src/kernel/gpu/mem_mgr/phys_mem_allocator/phys_mem_allocator.c](https://github.com/NVIDIA/open-gpu-kernel-modules/blob/main/src/nvidia/src/kernel/gpu/mem_mgr/phys_mem_allocator/phys_mem_allocator.c)
