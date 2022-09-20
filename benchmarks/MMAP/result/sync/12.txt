@@ -1,0 +1,42 @@
+Allocation size : 16777216
+cudaMalloc elapsed 		201us 
+The barreir count: 0
+MMAP Allocation elapsed 	221us 
+Allocation size : 16777216
+cudaMalloc elapsed 		295us 
+The barreir count: 1
+MMAP Allocation elapsed 	247us 
+
+
+CUDA API Statistics:
+
+ Time(%)  Total Time (ns)  Num Calls  Average (ns)   Minimum (ns)  Maximum (ns)   StdDev (ns)               Name             
+ -------  ---------------  ---------  -------------  ------------  ------------  -------------  -----------------------------
+    99.7      287,187,166          2  143,593,583.0       203,155   286,984,011  202,784,688.0  cudaFree                     
+     0.1          294,118          1      294,118.0       294,118       294,118            0.0  cudaMalloc                   
+     0.0          127,837          1      127,837.0       127,837       127,837            0.0  cuMemSetAccess               
+     0.0          120,806          1      120,806.0       120,806       120,806            0.0  cuMemRelease                 
+     0.0          101,617          1      101,617.0       101,617       101,617            0.0  cuMemCreate                  
+     0.0           76,904          1       76,904.0        76,904        76,904            0.0  cuMemUnmap                   
+     0.0           10,360          1       10,360.0        10,360        10,360            0.0  cuMemAddressReserve          
+     0.0            7,334          1        7,334.0         7,334         7,334            0.0  cuMemAddressFree             
+     0.0            3,028          1        3,028.0         3,028         3,028            0.0  cuMemMap                     
+     0.0              959          1          959.0           959           959            0.0  cuMemGetAllocationGranularity
+
+
+CUDA API Statistics:
+
+ Time(%)  Total Time (ns)  Num Calls  Average (ns)   Minimum (ns)  Maximum (ns)   StdDev (ns)               Name             
+ -------  ---------------  ---------  -------------  ------------  ------------  -------------  -----------------------------
+    99.7      208,165,542          2  104,082,771.0       144,512   208,021,030  146,990,895.5  cudaFree                     
+     0.1          200,456          1      200,456.0       200,456       200,456            0.0  cudaMalloc                   
+     0.1          153,319          1      153,319.0       153,319       153,319            0.0  cuMemSetAccess               
+     0.0          102,341          1      102,341.0       102,341       102,341            0.0  cuMemRelease                 
+     0.0           65,416          1       65,416.0        65,416        65,416            0.0  cuMemUnmap                   
+     0.0           49,827          1       49,827.0        49,827        49,827            0.0  cuMemCreate                  
+     0.0            9,506          1        9,506.0         9,506         9,506            0.0  cuMemAddressReserve          
+     0.0            6,456          1        6,456.0         6,456         6,456            0.0  cuMemAddressFree             
+     0.0            2,964          1        2,964.0         2,964         2,964            0.0  cuMemMap                     
+     0.0              896          1          896.0           896           896            0.0  cuMemGetAllocationGranularity
+
+

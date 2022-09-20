@@ -1,0 +1,25 @@
+Allocation size : 536870912
+cudaMalloc elapsed 		599us 
+aligned size: 2097152
+request size: 536870912
+MMAP Allocation elapsed 	1051us 
+cuMemAlloc elapsed 	616us 
+
+
+CUDA API Statistics:
+
+ Time(%)  Total Time (ns)  Num Calls  Average (ns)   Minimum (ns)  Maximum (ns)   StdDev (ns)               Name             
+ -------  ---------------  ---------  -------------  ------------  ------------  -------------  -----------------------------
+    98.7      232,846,933          2  116,423,466.5       499,221   232,347,712  163,941,640.2  cudaFree                     
+     0.3          634,627          1      634,627.0       634,627       634,627            0.0  cuMemSetAccess               
+     0.3          615,646          1      615,646.0       615,646       615,646            0.0  cuMemAlloc_v2                
+     0.3          599,155          1      599,155.0       599,155       599,155            0.0  cudaMalloc                   
+     0.2          464,292          1      464,292.0       464,292       464,292            0.0  cuMemFree_v2                 
+     0.2          400,671          1      400,671.0       400,671       400,671            0.0  cuMemCreate                  
+     0.2          379,780          1      379,780.0       379,780       379,780            0.0  cuMemRelease                 
+     0.0           61,189          1       61,189.0        61,189        61,189            0.0  cuMemUnmap                   
+     0.0            5,621          1        5,621.0         5,621         5,621            0.0  cuMemAddressReserve          
+     0.0            3,778          1        3,778.0         3,778         3,778            0.0  cuMemAddressFree             
+     0.0            2,795          1        2,795.0         2,795         2,795            0.0  cuMemMap                     
+     0.0              785          1          785.0           785           785            0.0  cuMemGetAllocationGranularity
+

@@ -1,0 +1,44 @@
+     0.0            8,649          1        8,649.0         8,649         8,649            0.0  cuMemAddressReserve          
+***
+     0.0            8,271          1        8,271.0         8,271         8,271            0.0  cuMemAddressReserve          
+     0.0           22,798          1       22,798.0        22,798        22,798            0.0  cuMemAddressReserve          
+***
+     0.0            9,067          1        9,067.0         9,067         9,067            0.0  cuMemAddressReserve          
+     0.0           15,600          1       15,600.0        15,600        15,600            0.0  cuMemAddressReserve          
+     0.0            8,974          1        8,974.0         8,974         8,974            0.0  cuMemAddressReserve          
+***
+     0.0           12,203          1       12,203.0        12,203        12,203            0.0  cuMemAddressReserve          
+     0.0           13,060          1       13,060.0        13,060        13,060            0.0  cuMemAddressReserve          
+     0.0           12,987          1       12,987.0        12,987        12,987            0.0  cuMemAddressReserve          
+     0.0           15,189          1       15,189.0        15,189        15,189            0.0  cuMemAddressReserve          
+***
+     0.0           11,640          1       11,640.0        11,640        11,640            0.0  cuMemAddressReserve          
+     0.0           11,701          1       11,701.0        11,701        11,701            0.0  cuMemAddressReserve          
+     0.0           11,138          1       11,138.0        11,138        11,138            0.0  cuMemAddressReserve          
+     0.0           20,167          1       20,167.0        20,167        20,167            0.0  cuMemAddressReserve          
+     0.0           15,653          1       15,653.0        15,653        15,653            0.0  cuMemAddressReserve          
+***
+     0.0           12,085          1       12,085.0        12,085        12,085            0.0  cuMemAddressReserve          
+     0.0           17,596          1       17,596.0        17,596        17,596            0.0  cuMemAddressReserve          
+     0.0           17,449          1       17,449.0        17,449        17,449            0.0  cuMemAddressReserve          
+     0.0           15,223          1       15,223.0        15,223        15,223            0.0  cuMemAddressReserve          
+     0.0           13,429          1       13,429.0        13,429        13,429            0.0  cuMemAddressReserve          
+     0.0           11,992          1       11,992.0        11,992        11,992            0.0  cuMemAddressReserve          
+***
+     0.0           27,176          1       27,176.0        27,176        27,176            0.0  cuMemAddressReserve          
+     0.0           19,319          1       19,319.0        19,319        19,319            0.0  cuMemAddressReserve          
+     0.0           12,509          1       12,509.0        12,509        12,509            0.0  cuMemAddressReserve          
+     0.0           16,124          1       16,124.0        16,124        16,124            0.0  cuMemAddressReserve          
+     0.0           13,582          1       13,582.0        13,582        13,582            0.0  cuMemAddressReserve          
+     0.0           12,639          1       12,639.0        12,639        12,639            0.0  cuMemAddressReserve          
+     0.0           15,021          1       15,021.0        15,021        15,021            0.0  cuMemAddressReserve          
+***
+     0.0           16,831          1       16,831.0        16,831        16,831            0.0  cuMemAddressReserve          
+     0.0           23,734          1       23,734.0        23,734        23,734            0.0  cuMemAddressReserve          
+     0.0           16,248          1       16,248.0        16,248        16,248            0.0  cuMemAddressReserve          
+     0.0           14,787          1       14,787.0        14,787        14,787            0.0  cuMemAddressReserve          
+     0.0           20,707          1       20,707.0        20,707        20,707            0.0  cuMemAddressReserve          
+     0.0           17,431          1       17,431.0        17,431        17,431            0.0  cuMemAddressReserve          
+     0.0           14,003          1       14,003.0        14,003        14,003            0.0  cuMemAddressReserve          
+     0.0           34,213          1       34,213.0        34,213        34,213            0.0  cuMemAddressReserve          
+***
