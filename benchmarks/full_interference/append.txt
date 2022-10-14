@@ -1,0 +1,40 @@
+size : 4 KBThe barrier counter: 0
+
+
+CUDA API Statistics:
+
+ Time(%)  Total Time (ns)  Num Calls  Average (ns)   Minimum (ns)  Maximum (ns)   StdDev (ns)      Name   
+ -------  ---------------  ---------  -------------  ------------  ------------  -------------  ----------
+    99.8      315,004,186          2  157,502,093.0       867,615   314,136,571  221,514,603.1  cudaMalloc
+     0.2          779,836          2      389,918.0       198,493       581,343      270,715.8  cudaFree  
+
+size : 4 KBThe barrier counter: 3
+
+
+CUDA API Statistics:
+
+ Time(%)  Total Time (ns)  Num Calls  Average (ns)   Minimum (ns)  Maximum (ns)   StdDev (ns)      Name   
+ -------  ---------------  ---------  -------------  ------------  ------------  -------------  ----------
+    99.8      382,961,514          2  191,480,757.0       752,404   382,209,110  269,730,623.5  cudaMalloc
+     0.2          737,376          2      368,688.0       205,124       532,252      231,314.4  cudaFree  
+
+size : 4 KBThe barrier counter: 2
+
+
+CUDA API Statistics:
+
+ Time(%)  Total Time (ns)  Num Calls  Average (ns)   Minimum (ns)  Maximum (ns)   StdDev (ns)      Name   
+ -------  ---------------  ---------  -------------  ------------  ------------  -------------  ----------
+    99.8      352,531,756          2  176,265,878.0       780,626   351,751,130  248,173,623.4  cudaMalloc
+     0.2          742,829          2      371,414.5       191,669       551,160      254,198.5  cudaFree  
+
+size : 4 KBThe barrier counter: 1
+
+
+CUDA API Statistics:
+
+ Time(%)  Total Time (ns)  Num Calls  Average (ns)   Minimum (ns)  Maximum (ns)   StdDev (ns)      Name   
+ -------  ---------------  ---------  -------------  ------------  ------------  -------------  ----------
+    99.8      316,246,418          2  158,123,209.0       840,924   315,405,494  222,430,740.6  cudaMalloc
+     0.2          765,001          2      382,500.5       202,180       562,821      255,011.7  cudaFree  
+

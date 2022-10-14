@@ -1,0 +1,28 @@
+The barrier counter: 6
+
+
+CUDA API Statistics:
+
+ Time(%)  Total Time (ns)  Num Calls  Average (ns)   Minimum (ns)  Maximum (ns)  StdDev (ns)      Name     
+ -------  ---------------  ---------  -------------  ------------  ------------  -----------  -------------
+    72.3      655,736,776          1  655,736,776.0   655,736,776   655,736,776          0.0  cudaMemcpy   
+    27.2      247,048,388          1  247,048,388.0   247,048,388   247,048,388          0.0  cudaFreeArray
+     0.3        2,474,235          1    2,474,235.0     2,474,235     2,474,235          0.0  cudaMalloc   
+     0.2        1,452,782          1    1,452,782.0     1,452,782     1,452,782          0.0  cudaFree     
+
+
+
+CUDA Memory Operation Statistics (by time):
+
+ Time(%)  Total Time (ns)  Count  Average (ns)   Minimum (ns)  Maximum (ns)  StdDev (ns)      Operation     
+ -------  ---------------  -----  -------------  ------------  ------------  -----------  ------------------
+   100.0      656,092,996      1  656,092,996.0   656,092,996   656,092,996          0.0  [CUDA memcpy HtoD]
+
+
+
+CUDA Memory Operation Statistics (by size):
+
+ Total (MB)  Count  Average (MB)  Minimum (MB)  Maximum (MB)  StdDev (MB)      Operation     
+ ----------  -----  ------------  ------------  ------------  -----------  ------------------
+  1,073.742      1     1,073.742     1,073.742     1,073.742        0.000  [CUDA memcpy HtoD]
+
