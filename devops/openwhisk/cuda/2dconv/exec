@@ -1,0 +1,31 @@
+# parse action param
+#TASK_ID=$(jq -r '(.TASK_ID)')
+
+# command to exec.exe via named pipe "fifo.1"
+chmod +x exec.exe
+
+if [ -p /init/fifo.1 ]
+then
+	echo "1" > /init/fifo.1 ;
+else
+	echo "{\"err\": \"no named pipe\"}"
+	exit 0
+fi
+
+cat > /init/fifo.1 &
+
+# wait for output
+while [ true ]
+do
+	if [ -s output ]
+	then
+		cat output;
+		rm output;
+		break;
+	fi
+done
+
+exit 0;
+
+# trim new line
+#./exec.exe | tr -s '\n' ';' > out
