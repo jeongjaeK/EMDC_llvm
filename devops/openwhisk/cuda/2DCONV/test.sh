@@ -1,6 +1,6 @@
-DOCKER_IMAGE=sunginh/emdc-ow-cuda-11.8.0:v0.83
+DOCKER_IMAGE=sunginh/emdc-ow-cuda-11.8.0:v0.2
 #enter action name here
-ACTION_NAME=cuda_2dconv_pt
+ACTION_NAME=cuda_2dconv
 ACTION=Action.zip
 
 # compile using clang++ compiler if need
@@ -9,7 +9,7 @@ ACTION=Action.zip
 #clang++ -fsycl -fsycl-targets=spir64_x86_64,spir64_fpga,nvptx64-nvidia-cuda $SRC -o exec.exe
 
 # zip a new action files
-zip $ACTION exec exec.exe
+zip $ACTION exec 
 
 # delete the action
 wsk action delete $ACTION_NAME
