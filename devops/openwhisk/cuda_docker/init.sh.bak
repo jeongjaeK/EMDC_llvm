@@ -1,0 +1,30 @@
+#!/bin/bash
+
+mkfifo /init/fifo.1;
+chmod 777 /init/fifo.1;
+
+pid_cat="";
+pid_exe="";
+
+while [ true ]
+do
+	if [ -f /action/exec.exe ]
+	then
+		cd /action;
+		chmod +x /action/exec.exe;
+	
+		if [ -p /init/fifo.1 ] 
+		then
+			cat > /init/fifo.1 &
+			pid_cat=$!;
+			echo "cat: "$pid_cat >> log;
+
+			/action/exec.exe < /init/fifo.1 &
+			pid_exe=$!;
+			echo "exe: "$pid_exe >> log;
+			break;
+		fi
+	fi
+done
+wait $pid_cat
+wait $pid_exe
