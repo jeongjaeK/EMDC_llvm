@@ -21,11 +21,9 @@ e.g. clang++ -fsycl -fsycl-targets=[backend list] main.cpp -Xlink [linker arg] (
     [address] should be greater than any other section's address
  
 ## Work-in-progress ##
-Write compiler script template
-OR
-Modify linker script
-  
-    
+Dynamic binded cold start action on OpenWhisk
+(TODO: add how to setup DPC++ environments on docker container)
+(TODO: add how to implement docker image)
     
 ## Forked from ##
 Intel LLVM-based projects (https://github.com/intel/llvm)
