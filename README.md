@@ -22,7 +22,9 @@ e.g. clang++ -fsycl -fsycl-targets=[backend list] main.cpp -Xlink [linker arg] (
  
 ## Work-in-progress ##
 Dynamic binded cold start action on OpenWhisk
+
 (TODO: add how to setup DPC++ environments on docker container)
+
 (TODO: add how to implement docker image)
     
 ## Forked from ##
