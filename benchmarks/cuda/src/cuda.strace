@@ -1,0 +1,2537 @@
+execve("./a.out", ["./a.out"], 0x7ffe49cafad0 /* 41 vars */) = 0
+brk(NULL)                               = 0x5562716d0000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell/avx512_1/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cuda/lib64/tls/haswell/avx512_1/x86_64", 0x7ffe950f38a0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell/avx512_1/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cuda/lib64/tls/haswell/avx512_1", 0x7ffe950f38a0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cuda/lib64/tls/haswell/x86_64", 0x7ffe950f38a0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cuda/lib64/tls/haswell", 0x7ffe950f38a0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/avx512_1/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cuda/lib64/tls/avx512_1/x86_64", 0x7ffe950f38a0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/avx512_1/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cuda/lib64/tls/avx512_1", 0x7ffe950f38a0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cuda/lib64/tls/x86_64", 0x7ffe950f38a0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cuda/lib64/tls", 0x7ffe950f38a0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/haswell/avx512_1/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cuda/lib64/haswell/avx512_1/x86_64", 0x7ffe950f38a0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/haswell/avx512_1/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cuda/lib64/haswell/avx512_1", 0x7ffe950f38a0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/haswell/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cuda/lib64/haswell/x86_64", 0x7ffe950f38a0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/haswell/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cuda/lib64/haswell", 0x7ffe950f38a0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/avx512_1/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cuda/lib64/avx512_1/x86_64", 0x7ffe950f38a0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/avx512_1/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cuda/lib64/avx512_1", 0x7ffe950f38a0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cuda/lib64/x86_64", 0x7ffe950f38a0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cuda/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=123270, ...}) = 0
+mmap(NULL, 123270, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f715abb5000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=31680, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f715abb3000
+mmap(NULL, 2128864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f715a7a3000
+mprotect(0x7f715a7aa000, 2093056, PROT_NONE) = 0
+mmap(0x7f715a9a9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f715a9a9000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/local/cuda/lib64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000b\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=144976, ...}) = 0
+mmap(NULL, 2221184, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f715a584000
+mprotect(0x7f715a59e000, 2093056, PROT_NONE) = 0
+mmap(0x7f715a79d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19000) = 0x7f715a79d000
+mmap(0x7f715a79f000, 13440, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f715a79f000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/local/cuda/lib64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14560, ...}) = 0
+mmap(NULL, 2109712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f715a380000
+mprotect(0x7f715a383000, 2093056, PROT_NONE) = 0
+mmap(0x7f715a582000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f715a582000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/local/cuda/lib64/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\304\10\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1594864, ...}) = 0
+mmap(NULL, 3702848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7159ff7000
+mprotect(0x7f715a170000, 2097152, PROT_NONE) = 0
+mmap(0x7f715a370000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x179000) = 0x7f715a370000
+mmap(0x7f715a37c000, 12352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f715a37c000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/local/cuda/lib64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300*\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=96616, ...}) = 0
+mmap(NULL, 2192432, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7159ddf000
+mprotect(0x7f7159df6000, 2093056, PROT_NONE) = 0
+mmap(0x7f7159ff5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7f7159ff5000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/local/cuda/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\35\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=2030928, ...}) = 0
+mmap(NULL, 4131552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f71599ee000
+mprotect(0x7f7159bd5000, 2097152, PROT_NONE) = 0
+mmap(0x7f7159dd5000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e7000) = 0x7f7159dd5000
+mmap(0x7f7159ddb000, 15072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7159ddb000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/local/cuda/lib64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\272\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1700792, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f715abb1000
+mmap(NULL, 3789144, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7159650000
+mprotect(0x7f71597ed000, 2093056, PROT_NONE) = 0
+mmap(0x7f71599ec000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19c000) = 0x7f71599ec000
+close(3)                                = 0
+mmap(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f715abac000
+arch_prctl(ARCH_SET_FS, 0x7f715abae000) = 0
+mprotect(0x7f7159dd5000, 16384, PROT_READ) = 0
+mprotect(0x7f71599ec000, 4096, PROT_READ) = 0
+mprotect(0x7f7159ff5000, 4096, PROT_READ) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f715abaa000
+mprotect(0x7f715a370000, 40960, PROT_READ) = 0
+mprotect(0x7f715a582000, 4096, PROT_READ) = 0
+mprotect(0x7f715a79d000, 4096, PROT_READ) = 0
+mprotect(0x7f715a9a9000, 4096, PROT_READ) = 0
+mprotect(0x55626fddd000, 20480, PROT_READ) = 0
+mprotect(0x7f715abd4000, 4096, PROT_READ) = 0
+munmap(0x7f715abb5000, 123270)          = 0
+set_tid_address(0x7f715abae2d0)         = 69676
+set_robust_list(0x7f715abae2e0, 24)     = 0
+rt_sigaction(SIGRTMIN, {sa_handler=0x7f715a589cb0, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7f715a596980}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {sa_handler=0x7f715a589d50, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x7f715a596980}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(NULL)                               = 0x5562716d0000
+brk(0x5562716f1000)                     = 0x5562716f1000
+futex(0x55626fde2dfc, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f715a37d09c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f715a37d0a8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69677
+wait4(69677, HSI:Init CUDA
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69677
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=69677, si_uid=1001, si_status=0, si_utime=0, si_stime=0} ---
+futex(0x7f715a5830c8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+openat(AT_FDCWD, "/usr/local/cuda/lib64/libcuda.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=123270, ...}) = 0
+mmap(NULL, 123270, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f715abb5000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libcuda.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320M\r\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=20988000, ...}) = 0
+mmap(NULL, 21379648, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f71581ec000
+mprotect(0x7f71582c0000, 18964480, PROT_NONE) = 0
+mmap(0x7f71582c0000, 4628480, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xd4000) = 0x7f71582c0000
+mmap(0x7f715872a000, 14331904, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x53e000) = 0x7f715872a000
+mmap(0x7f71594d6000, 1159168, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x12e9000) = 0x7f71594d6000
+mmap(0x7f71595f1000, 387648, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f71595f1000
+close(3)                                = 0
+mprotect(0x7f71594d6000, 86016, PROT_READ) = 0
+sched_get_priority_max(SCHED_RR)        = 99
+sched_get_priority_min(SCHED_RR)        = 1
+munmap(0x7f715abb5000, 123270)          = 0
+getpid()                                = 69676
+openat(AT_FDCWD, "/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC) = 3
+read(3, "0-79\n", 8192)                 = 5
+close(3)                                = 0
+mmap(NULL, 135168, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f715ab89000
+sched_getaffinity(69676, 16, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]) = 16
+munmap(0x7f715ab89000, 135168)          = 0
+openat(AT_FDCWD, "/proc/sys/vm/mmap_min_addr", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+read(3, "65536\n", 1024)                = 6
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/cpuinfo", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+read(3, "processor\t: 0\nvendor_id\t: Genuin"..., 1024) = 1024
+read(3, "smap clflushopt clwb intel_pt av"..., 1024) = 1024
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/self/maps", O_RDONLY) = 3
+brk(0x556271714000)                     = 0x556271714000
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+read(3, "55626fb36000-55626fbdd000 r-xp 0"..., 1024) = 1024
+read(3, "594d6000-7f71594eb000 r--p 012e9"..., 1024) = 1024
+read(3, "gnu/libc-2.27.so\n7f7159dd9000-7f"..., 1024) = 1024
+read(3, "                /usr/lib/x86_64-"..., 1024) = 1024
+read(3, "3000 rw-p 00000000 00:00 0 \n7f71"..., 1024) = 1024
+read(3, "          [vvar]\n7ffe951fa000-7f"..., 1024) = 181
+close(3)                                = 0
+getpid()                                = 69676
+futex(0x7f71595f674c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+statfs("/dev/shm/", {f_type=TMPFS_MAGIC, f_bsize=4096, f_blocks=131933977, f_bfree=131933977, f_bavail=131933977, f_files=131933977, f_ffree=131933976, f_fsid={val=[0, 0]}, f_namelen=255, f_frsize=4096, f_flags=ST_VALID|ST_NOSUID|ST_NODEV}) = 0
+futex(0x7f715a7a2370, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+openat(AT_FDCWD, "/dev/shm/cuda_injection_path_shm", O_RDWR|O_NOFOLLOW|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/sihong/.nv/nvidia-application-profile-globals-rc", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/sihong/.nv/nvidia-application-profiles-rc", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/sihong/.nv/nvidia-application-profiles-rc.d", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/nvidia/nvidia-application-profiles-rc", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/nvidia/nvidia-application-profiles-rc.d/", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/nvidia/nvidia-application-profiles-515.65.07-rc", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=9381, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0444, st_size=9381, ...}) = 0
+read(3, "# Application profiles for the N"..., 8192) = 8192
+read(3, "ptimizations\" },\n        { \"patt"..., 4096) = 1189
+brk(0x556271735000)                     = 0x556271735000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/share/nvidia/nvidia-application-profiles-rc", O_RDONLY) = -1 ENOENT (No such file or directory)
+getpid()                                = 69676
+readlink("/proc/69676/exe", "/home/sihong/sycl_workspace/EMDC"..., 4095) = 63
+getpid()                                = 69676
+geteuid()                               = 1001
+socket(AF_UNIX, SOCK_SEQPACKET|SOCK_CLOEXEC, 0) = 3
+setsockopt(3, SOL_SOCKET, SO_PASSCRED, [1], 4) = 0
+connect(3, {sa_family=AF_UNIX, sun_path="/tmp/nvidia-mps/control"}, 26) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+lstat("/proc", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+lstat("/proc/self", {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlink("/proc/self", "69676", 4095)   = 5
+lstat("/proc/69676", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+lstat("/proc/69676/exe", {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlink("/proc/69676/exe", "/home/sihong/sycl_workspace/EMDC"..., 4095) = 63
+lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/sihong", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/sihong/sycl_workspace", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+lstat("/home/sihong/sycl_workspace/EMDC_llvm", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+lstat("/home/sihong/sycl_workspace/EMDC_llvm/benchmarks", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+lstat("/home/sihong/sycl_workspace/EMDC_llvm/benchmarks/cuda", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+lstat("/home/sihong/sycl_workspace/EMDC_llvm/benchmarks/cuda/src", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+lstat("/home/sihong/sycl_workspace/EMDC_llvm/benchmarks/cuda/src/a.out", {st_mode=S_IFREG|0775, st_size=847568, ...}) = 0
+brk(0x556271756000)                     = 0x556271756000
+openat(AT_FDCWD, "/proc/modules", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+read(3, "nvidia_uvm 1126400 0 - Live 0x00"..., 1024) = 1024
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/driver/nvidia/params", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+read(3, "ResmanDebugLevel: 4294967295\nRmL"..., 1024) = 878
+close(3)                                = 0
+stat("/dev/nvidiactl", {st_mode=S_IFCHR|0666, st_rdev=makedev(195, 255), ...}) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR) = 3
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xd2, 0x48), 0x7ffe950f3040) = 0
+openat(AT_FDCWD, "/sys/devices/system/memory/block_size_bytes", O_RDONLY) = 4
+read(4, "40000000\n", 99)               = 9
+close(4)                                = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xd6, 0x8), 0x7ffe950f3040) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xc8, 0x900), 0x7f715963ca20) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x20), 0x7ffe950f3040) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1f90) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f30a0) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/modules", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+read(3, "nvidia_uvm 1126400 0 - Live 0x00"..., 1024) = 1024
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/driver/nvidia/params", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+read(3, "ResmanDebugLevel: 4294967295\nRmL"..., 1024) = 878
+close(3)                                = 0
+stat("/dev/nvidiactl", {st_mode=S_IFCHR|0666, st_rdev=makedev(195, 255), ...}) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR) = 3
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xd2, 0x48), 0x7ffe950f35f0) = 0
+openat(AT_FDCWD, "/sys/devices/system/memory/block_size_bytes", O_RDONLY) = 4
+read(4, "40000000\n", 99)               = 9
+close(4)                                = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xd6, 0x8), 0x7ffe950f35f0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xc8, 0x900), 0x7f715963ca20) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x20), 0x7ffe950f35f0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2510) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2510) = 0
+openat(AT_FDCWD, "/proc/self/status", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+read(4, "Name:\ta.out\nUmask:\t0002\nState:\tR"..., 1024) = 1024
+read(4, "000000,00000000,00000000,0000000"..., 1024) = 359
+close(4)                                = 0
+openat(AT_FDCWD, "/sys/devices/system/node", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 4
+fstat(4, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+getdents(4, /* 11 entries */, 32768)    = 344
+openat(AT_FDCWD, "/sys/devices/system/node/node0/cpumap", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(5, "0000,0fffff00,000fffff\n", 4096) = 23
+close(5)                                = 0
+openat(AT_FDCWD, "/sys/devices/system/node/node1/cpumap", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(5, "ffff,f00000ff,fff00000\n", 4096) = 23
+close(5)                                = 0
+getdents(4, /* 0 entries */, 32768)     = 0
+close(4)                                = 0
+futex(0x7f715963b110, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+get_mempolicy([MPOL_DEFAULT], [000000000000000000, 000000000000000000, 000000000000000000, 000000000000000000, 000000000000000000, 000000000000000000, 000000000000000000, 000000000000000000, 000000000000000000, 000000000000000000, 000000000000000000, 000000000000000000, 000000000000000000, 000000000000000000, 000000000000000000, 000000000000000000], 1024, NULL, 0) = 0
+openat(AT_FDCWD, "/proc/modules", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+read(4, "nvidia_uvm 1126400 0 - Live 0x00"..., 1024) = 1024
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/devices", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+read(4, "Character devices:\n  1 mem\n  4 /"..., 1024) = 932
+close(4)                                = 0
+stat("/dev/nvidia-uvm", {st_mode=S_IFCHR|0666, st_rdev=makedev(497, 0), ...}) = 0
+stat("/dev/nvidia-uvm-tools", {st_mode=S_IFCHR|0666, st_rdev=makedev(497, 1), ...}) = 0
+openat(AT_FDCWD, "/dev/nvidia-uvm", O_RDWR|O_CLOEXEC) = 4
+fcntl(4, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+ioctl(4, _IOC(0, 0, 0x1, 0x3000), 0x7ffe950f3660) = 0
+ioctl(4, _IOC(0, 0, 0x27, 0), 0x7ffe950f3660) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1030) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0f30) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0770) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0fe0) = 0
+openat(AT_FDCWD, "/proc/driver/nvidia/params", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+read(5, "ResmanDebugLevel: 4294967295\nRmL"..., 1024) = 878
+close(5)                                = 0
+stat("/dev/nvidia0", {st_mode=S_IFCHR|0666, st_rdev=makedev(195, 0), ...}) = 0
+openat(AT_FDCWD, "/dev/nvidia0", O_RDWR|O_CLOEXEC) = 5
+fcntl(5, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0fe0) = 0
+openat(AT_FDCWD, "/proc/driver/nvidia/params", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+read(6, "ResmanDebugLevel: 4294967295\nRmL"..., 1024) = 878
+close(6)                                = 0
+stat("/dev/nvidia1", {st_mode=S_IFCHR|0666, st_rdev=makedev(195, 1), ...}) = 0
+openat(AT_FDCWD, "/dev/nvidia1", O_RDWR|O_CLOEXEC) = 6
+fcntl(6, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0fe0) = 0
+openat(AT_FDCWD, "/proc/driver/nvidia/params", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+read(7, "ResmanDebugLevel: 4294967295\nRmL"..., 1024) = 878
+close(7)                                = 0
+stat("/dev/nvidia2", {st_mode=S_IFCHR|0666, st_rdev=makedev(195, 2), ...}) = 0
+openat(AT_FDCWD, "/dev/nvidia2", O_RDWR|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1020) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e60) = 0
+openat(AT_FDCWD, "/proc/driver/nvidia/params", O_RDONLY) = 8
+fstat(8, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+read(8, "ResmanDebugLevel: 4294967295\nRmL"..., 1024) = 878
+close(8)                                = 0
+stat("/dev/nvidia0", {st_mode=S_IFCHR|0666, st_rdev=makedev(195, 0), ...}) = 0
+openat(AT_FDCWD, "/dev/nvidia0", O_RDWR|O_CLOEXEC) = 8
+fcntl(8, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+ioctl(8, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xc9, 0x4), 0x7ffe950f2000) = 0
+ioctl(8, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xd7, 0x228), 0x7ffe950f1d90) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f20d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0fe0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0fe0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0fe0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0fe0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ec0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0dc0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0dc0) = 0
+openat(AT_FDCWD, "/proc/driver/nvidia/params", O_RDONLY) = 9
+fstat(9, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+read(9, "ResmanDebugLevel: 4294967295\nRmL"..., 1024) = 878
+close(9)                                = 0
+stat("/dev/nvidia0", {st_mode=S_IFCHR|0666, st_rdev=makedev(195, 0), ...}) = 0
+openat(AT_FDCWD, "/dev/nvidia0", O_RDWR|O_CLOEXEC) = 9
+fcntl(9, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+ioctl(9, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xc9, 0x4), 0x7ffe950f1f60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2020) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1010) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0fe0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ee0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0bb0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0f30) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0f50) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0d80) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0d80) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0d80) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0d80) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0b30) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e30) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e30) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ce0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e90) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0da0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950eea40) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0f40) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ed0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2030) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e10) = 0
+openat(AT_FDCWD, "/dev/nvidia0", O_RDWR|O_CLOEXEC) = 10
+fcntl(10, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1fe0) = 0
+mmap(NULL, 65536, PROT_WRITE, MAP_SHARED, 10, 0) = 0x7f715abc4000
+close(10)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2010) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0f70) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0f10) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f1fe0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f1fe0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f1fe0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ef0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e50) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e40) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0f40) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e80) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1020) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e60) = 0
+openat(AT_FDCWD, "/proc/driver/nvidia/params", O_RDONLY) = 10
+fstat(10, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+read(10, "ResmanDebugLevel: 4294967295\nRmL"..., 1024) = 878
+close(10)                               = 0
+stat("/dev/nvidia1", {st_mode=S_IFCHR|0666, st_rdev=makedev(195, 1), ...}) = 0
+openat(AT_FDCWD, "/dev/nvidia1", O_RDWR|O_CLOEXEC) = 10
+fcntl(10, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(10, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xc9, 0x4), 0x7ffe950f2000) = 0
+ioctl(10, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xd7, 0x228), 0x7ffe950f1d90) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f20d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0fe0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0fe0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0fe0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0fe0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ec0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0dc0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0dc0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0dc0) = 0
+openat(AT_FDCWD, "/proc/driver/nvidia/params", O_RDONLY) = 11
+fstat(11, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+read(11, "ResmanDebugLevel: 4294967295\nRmL"..., 1024) = 878
+close(11)                               = 0
+stat("/dev/nvidia1", {st_mode=S_IFCHR|0666, st_rdev=makedev(195, 1), ...}) = 0
+openat(AT_FDCWD, "/dev/nvidia1", O_RDWR|O_CLOEXEC) = 11
+fcntl(11, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(11, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xc9, 0x4), 0x7ffe950f1f60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2020) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1010) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0fe0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ee0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0bb0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0f30) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0f50) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0d80) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0d80) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0d80) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0d80) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0b30) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e30) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e30) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ce0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e90) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0da0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950eea40) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0f40) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ed0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2030) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e10) = 0
+openat(AT_FDCWD, "/dev/nvidia1", O_RDWR|O_CLOEXEC) = 12
+fcntl(12, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1fe0) = 0
+mmap(NULL, 65536, PROT_WRITE, MAP_SHARED, 12, 0) = 0x7f715ab9a000
+close(12)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2010) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0f70) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0f10) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f1fe0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f1fe0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f1fe0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ef0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e50) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e40) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0f40) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e80) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1020) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e60) = 0
+openat(AT_FDCWD, "/proc/driver/nvidia/params", O_RDONLY) = 12
+fstat(12, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+read(12, "ResmanDebugLevel: 4294967295\nRmL"..., 1024) = 878
+close(12)                               = 0
+stat("/dev/nvidia2", {st_mode=S_IFCHR|0666, st_rdev=makedev(195, 2), ...}) = 0
+openat(AT_FDCWD, "/dev/nvidia2", O_RDWR|O_CLOEXEC) = 12
+fcntl(12, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(12, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xc9, 0x4), 0x7ffe950f2000) = 0
+ioctl(12, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xd7, 0x228), 0x7ffe950f1d90) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f20d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0fe0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0fe0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0fe0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0fe0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ec0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0dc0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0dc0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0dc0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0dc0) = 0
+openat(AT_FDCWD, "/proc/driver/nvidia/params", O_RDONLY) = 13
+fstat(13, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+read(13, "ResmanDebugLevel: 4294967295\nRmL"..., 1024) = 878
+close(13)                               = 0
+stat("/dev/nvidia2", {st_mode=S_IFCHR|0666, st_rdev=makedev(195, 2), ...}) = 0
+openat(AT_FDCWD, "/dev/nvidia2", O_RDWR|O_CLOEXEC) = 13
+fcntl(13, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(13, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xc9, 0x4), 0x7ffe950f1f60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2020) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1010) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0fe0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ee0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0bb0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0f30) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0f50) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0d80) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0d80) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0d80) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0d80) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0b30) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e30) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e30) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ce0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e90) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0da0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950eea40) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0f40) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ed0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2030) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e10) = 0
+openat(AT_FDCWD, "/dev/nvidia2", O_RDWR|O_CLOEXEC) = 14
+fcntl(14, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1fe0) = 0
+mmap(NULL, 65536, PROT_WRITE, MAP_SHARED, 14, 0) = 0x7f715ab8a000
+close(14)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2010) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0f70) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0f10) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f1fe0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f1fe0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f1fe0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ef0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e50) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e40) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0f40) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0e80) = 0
+mmap(NULL, 100663296, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f71521ec000
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1c20) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1c20) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1c20) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1c20) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1c20) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1c20) = 0
+mmap(NULL, 172032, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f715ab60000
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11b0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11b0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11b0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11b0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0370) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0370) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0370) = 0
+mmap(NULL, 659456, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f715aabf000
+mkdir("/home", 0700)                    = -1 EEXIST (File exists)
+mkdir("/home/sihong", 0700)             = -1 EEXIST (File exists)
+mkdir("/home/sihong/.nv", 0700)         = -1 EEXIST (File exists)
+mkdir("/home/sihong/.nv/ComputeCache", 0700) = -1 EEXIST (File exists)
+sysinfo({uptime=339510, loads=[34464, 33568, 34784], totalram=1080803143680, freeram=1059892322304, sharedram=3194880, bufferram=2390519808, totalswap=2147479552, freeswap=2147479552, procs=2848, totalhigh=0, freehigh=0, mem_unit=1}) = 0
+uname({sysname="Linux", nodename="worker01", ...}) = 0
+ioctl(4, _IOC(0, 0, 0x25, 0), 0x7ffe950f3620) = 0
+ioctl(4, _IOC(0, 0, 0x25, 0), 0x7ffe950f3620) = 0
+ioctl(4, _IOC(0, 0, 0x25, 0), 0x7ffe950f3620) = 0
+ioctl(4, _IOC(0, 0, 0x17, 0), 0x7ffe950f36a0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f3450) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f3450) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f3450) = 0
+prlimit64(0, RLIMIT_AS, NULL, {rlim_cur=RLIM64_INFINITY, rlim_max=RLIM64_INFINITY}) = 0
+mmap(0x200000000, 12886999040, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x200000000
+mmap(NULL, 536866816, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f71321ed000
+munmap(0x7f71321ed000, 232861696)       = 0
+munmap(0x7f7150000000, 35569664)        = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f35b0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f24c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f35b0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f24c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f35b0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f24c0) = 0
+eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK)   = 14
+fcntl(14, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f71519eb000
+mprotect(0x7f71519ec000, 8388608, PROT_READ|PROT_WRITE) = 0
+clone(child_stack=0x7f71521e8ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f71521eb9d0, tls=0x7f71521eb700, child_tidptr=0x7f71521eb9d0) = 69798
+openat(AT_FDCWD, "/proc/self/task/69798/comm", O_RDWR) = 15
+write(15, "cuda-EvtHandlr", 14)         = 14
+close(15)                               = 0
+futex(0x5562716f3f38, FUTEX_WAKE_PRIVATE, 1) = 1
+getpid()                                = 69676
+stat("/proc/69676/ns/pid", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+stat("/proc/69676/ns/pid", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+socket(AF_UNIX, SOCK_SEQPACKET|SOCK_CLOEXEC, 0) = 15
+unlink("")                              = -1 ENOENT (No such file or directory)
+bind(15, {sa_family=AF_UNIX, sun_path=@"cuda-uvmfd-4026531836-69676\0"}, 31) = 0
+listen(15, 128)                         = 0
+write(14, "\1\0\0\0\0\0\0\0", 8)        = 8
+getpid()                                = 69676
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2820) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2850) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2770) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2890) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2640) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2770) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f27e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f26b0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2770) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2640) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2770) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f27e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f26b0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2820) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2850) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2770) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2890) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2640) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2770) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f27e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f26b0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2770) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2640) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2770) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f27e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f26b0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2820) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2850) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2770) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2890) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2640) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2770) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f27e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f26b0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2770) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2640) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2770) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f27e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f26b0) = 0
+getpid()                                = 69676
+getpid()                                = 69676
+futex(0x55626fde2e08, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f715963a930, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1870) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1870) = 0
+eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK)   = 16
+fcntl(16, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f71511ea000
+mprotect(0x7f71511eb000, 8388608, PROT_READ|PROT_WRITE) = 0
+clone(child_stack=0x7f71519e7ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f71519ea9d0, tls=0x7f71519ea700, child_tidptr=0x7f71519ea9d0) = 69799
+openat(AT_FDCWD, "/proc/self/task/69799/comm", O_RDWR) = 17
+write(17, "cuda-EvtHandlr", 14)         = 14
+close(17)                               = 0
+futex(0x5562716ee2d8, FUTEX_WAKE_PRIVATE, 1) = 1
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1840) = 0
+ioctl(4, _IOC(0, 0, 0x19, 0), 0x7ffe950f29d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1de0) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1ca0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1810) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1e00) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0c90) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 17
+fcntl(17, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1e60) = 0
+mmap(0x200400000, 2097152, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_FIXED, 17, 0) = 0x200400000
+close(17)                               = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1cc0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1830) = 0
+brk(0x556271780000)                     = 0x556271780000
+mmap(0x10000000000, 67108864, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x10000000000
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1d10) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1bd0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1740) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1d10) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1bd0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1740) = 0
+mmap(NULL, 266240, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f715aa7e000
+mmap(NULL, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f715a9fd000
+mmap(NULL, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7151169000
+mmap(NULL, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f71510e8000
+mmap(NULL, 67104768, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7134001000
+munmap(0x7f7134001000, 33550336)        = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1ec0) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1d80) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f18f0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2620) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2580) = 0
+brk(0x5562717ac000)                     = 0x5562717ac000
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1880) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0710) = 0
+openat(AT_FDCWD, "/dev/nvidia0", O_RDWR|O_CLOEXEC) = 17
+fcntl(17, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f18e0) = 0
+mmap(0x200600000, 2097152, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_FIXED, 17, 0) = 0x200600000
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x5e, 0x28), 0x7ffe950f18b0) = 0
+close(17)                               = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1740) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f12b0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1700) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0590) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 17
+fcntl(17, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1760) = 0
+mmap(0x200800000, 58720256, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_FIXED, 17, 0) = 0x200800000
+close(17)                               = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f15c0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1130) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0850) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 17
+fcntl(17, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a20) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 17, 0) = 0x7f715abc3000
+close(17)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2320) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1270) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1230) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1230) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1c00) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0a90) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 17
+fcntl(17, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1c60) = 0
+mmap(0x205c00000, 2097152, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_FIXED, 17, 0) = 0x205c00000
+close(17)                               = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1ac0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1630) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1c00) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0a90) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 17
+fcntl(17, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1c60) = 0
+mmap(0x205e00000, 2097152, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_FIXED, 17, 0) = 0x205e00000
+close(17)                               = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1ac0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1630) = 0
+brk(0x5562717d6000)                     = 0x5562717d6000
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0850) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 17
+fcntl(17, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a20) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 17, 0) = 0x7f715abc2000
+close(17)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2320) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1270) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1230) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1230) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0850) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 17
+fcntl(17, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a20) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 17, 0) = 0x7f715abc1000
+close(17)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2320) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1270) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1230) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1230) = 0
+brk(0x556271803000)                     = 0x556271803000
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0850) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 17
+fcntl(17, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a20) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 17, 0) = 0x7f715abc0000
+close(17)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2320) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1270) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1230) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1230) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0850) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 17
+fcntl(17, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a20) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 17, 0) = 0x7f715abbf000
+close(17)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2320) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1270) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1230) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1230) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0850) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 17
+fcntl(17, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a20) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 17, 0) = 0x7f715abbe000
+close(17)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2320) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1270) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1230) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1230) = 0
+brk(0x556271831000)                     = 0x556271831000
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0850) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 17
+fcntl(17, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a20) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 17, 0) = 0x7f715abbd000
+close(17)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2320) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1270) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1230) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1230) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0850) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 17
+fcntl(17, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a20) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 17, 0) = 0x7f715abbc000
+close(17)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2320) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1270) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1230) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1230) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f2790) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f2790) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f2790) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f2790) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f2790) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f2790) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f2790) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f2790) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1680) = 0
+openat(AT_FDCWD, "/dev/nvidia0", O_RDWR|O_CLOEXEC) = 17
+fcntl(17, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(17, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xc9, 0x4), 0x7ffe950f26b0) = 0
+ioctl(17, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xce, 0x10), 0x7ffe950f26b0) = 0
+ioctl(17, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2680) = 0
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2620) = 0
+brk(0x556271856000)                     = 0x556271856000
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0850) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 18
+fcntl(18, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a20) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 18, 0) = 0x7f715abbb000
+close(18)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2320) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1270) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1230) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0850) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 18
+fcntl(18, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a20) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 18, 0) = 0x7f715abba000
+close(18)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2320) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1270) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1230) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0850) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 18
+fcntl(18, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a20) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 18, 0) = 0x7f715abb9000
+close(18)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2320) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1270) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1230) = 0
+brk(0x556271884000)                     = 0x556271884000
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0850) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 18
+fcntl(18, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a20) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 18, 0) = 0x7f715abb8000
+close(18)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2320) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1270) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1230) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f2790) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f2790) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f2790) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f2790) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1680) = 0
+openat(AT_FDCWD, "/dev/nvidia0", O_RDWR|O_CLOEXEC) = 18
+fcntl(18, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(18, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xc9, 0x4), 0x7ffe950f26b0) = 0
+ioctl(18, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xce, 0x10), 0x7ffe950f26b0) = 0
+ioctl(18, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2680) = 0
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffe950f2740, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, {tv_sec=1670223755, tv_nsec=954910000}, 0xffffffff) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2620) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0850) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 25
+fcntl(25, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a20) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 25, 0) = 0x7f715abb7000
+close(25)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2320) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1270) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1230) = 0
+brk(0x5562718a9000)                     = 0x5562718a9000
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0850) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 25
+fcntl(25, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a20) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 25, 0) = 0x7f715abb6000
+close(25)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2320) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1270) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1230) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0850) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 25
+fcntl(25, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a20) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 25, 0) = 0x7f715abb5000
+close(25)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2320) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1270) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1230) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0850) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 25
+fcntl(25, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a20) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 25, 0) = 0x7f715a9fc000
+close(25)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2320) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1270) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1230) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f2790) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f2790) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f2790) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f2790) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1680) = 0
+openat(AT_FDCWD, "/dev/nvidia0", O_RDWR|O_CLOEXEC) = 25
+fcntl(25, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(25, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xc9, 0x4), 0x7ffe950f26b0) = 0
+ioctl(25, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xce, 0x10), 0x7ffe950f26b0) = 0
+ioctl(25, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2680) = 0
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffe950f2740, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, {tv_sec=1670223755, tv_nsec=979215000}, 0xffffffff) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2620) = 0
+brk(0x5562718ca000)                     = 0x5562718ca000
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0850) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a20) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 26, 0) = 0x7f715a9fb000
+close(26)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2320) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1270) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1230) = 0
+brk(0x5562718ed000)                     = 0x5562718ed000
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0850) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a20) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 26, 0) = 0x7f715a9fa000
+close(26)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2320) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1270) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1230) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0850) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a20) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 26, 0) = 0x7f715a9f9000
+close(26)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2320) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1270) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1230) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0850) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a20) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 26, 0) = 0x7f715a9f8000
+close(26)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2320) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1270) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1230) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f2790) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f2790) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f2790) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f2790) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1680) = 0
+openat(AT_FDCWD, "/dev/nvidia0", O_RDWR|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(26, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xc9, 0x4), 0x7ffe950f26b0) = 0
+ioctl(26, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xce, 0x10), 0x7ffe950f26b0) = 0
+ioctl(26, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2680) = 0
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffe950f2740, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, {tv_sec=1670223756, tv_nsec=4133000}, 0xffffffff) = 0
+brk(0x55627190e000)                     = 0x55627190e000
+eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK)   = 27
+fcntl(27, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1370) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1230) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1cf0) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1bb0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1720) = 0
+ioctl(4, _IOC(0, 0, 0x44, 0), 0x7ffe950f1900) = 0
+mmap(0x206000000, 2097152, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_FIXED, 4, 0x206000000) = 0x206000000
+ioctl(4, _IOC(0, 0, 0x48, 0), 0x7ffe950f1820) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1d60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0bf0) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 28
+fcntl(28, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1dc0) = 0
+mmap(0x206200000, 2097152, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_FIXED, 28, 0) = 0x206200000
+close(28)                               = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1c20) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1790) = 0
+brk(0x556271930000)                     = 0x556271930000
+ioctl(4, _IOC(0, 0, 0x17, 0), 0x7ffe950f2920) = 0
+ioctl(4, _IOC(0, 0, 0x17, 0), 0x7ffe950f2920) = 0
+ioctl(4, _IOC(0, 0, 0x17, 0), 0x7ffe950f2920) = 0
+ioctl(4, _IOC(0, 0, 0x17, 0), 0x7ffe950f2920) = 0
+ioctl(4, _IOC(0, 0, 0x17, 0), 0x7ffe950f2920) = 0
+ioctl(4, _IOC(0, 0, 0x17, 0), 0x7ffe950f2920) = 0
+ioctl(4, _IOC(0, 0, 0x17, 0), 0x7ffe950f2920) = 0
+ioctl(4, _IOC(0, 0, 0x17, 0), 0x7ffe950f2920) = 0
+ioctl(4, _IOC(0, 0, 0x17, 0), 0x7ffe950f2920) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1cf0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0b80) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 28
+fcntl(28, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1d50) = 0
+mmap(0x7f7136400000, 2097152, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_FIXED, 28, 0) = 0x7f7136400000
+close(28)                               = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1bb0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1720) = 0
+mmap(0x7f7136600000, 2097152, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7136600000
+ioctl(8, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x27, 0x38), 0x7ffe950f1cb0) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1bb0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1720) = 0
+brk(0x556271957000)                     = 0x556271957000
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1e60) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1d20) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1890) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1c80) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0b10) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 28
+fcntl(28, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1ce0) = 0
+mmap(0x206600000, 2097152, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_FIXED, 28, 0) = 0x206600000
+close(28)                               = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1b40) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f16b0) = 0
+mmap(0x7f7136800000, 2097152, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7136800000
+ioctl(8, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x27, 0x38), 0x7ffe950f1d10) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1c10) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1780) = 0
+brk(0x556271978000)                     = 0x556271978000
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1d50) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1c10) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1780) = 0
+ioctl(4, _IOC(0, 0, 0x41, 0), 0x7ffe950f2010) = 0
+mmap(NULL, 2097152, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_ANONYMOUS, -1, 0) = 0x7f7150ee8000
+ioctl(8, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x27, 0x38), 0x7ffe950f1dd0) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1cd0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1840) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1980) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1840) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f13b0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f2010) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1ed0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1a40) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f29c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f2010) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ea0) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 28
+fcntl(28, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f2070) = 0
+mmap(0x7f7137000000, 2097152, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_FIXED, 28, 0) = 0x7f7137000000
+close(28)                               = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1ed0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1a40) = 0
+mmap(NULL, 1163264, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7150dcc000
+brk(0x55627199c000)                     = 0x55627199c000
+brk(0x5562719c3000)                     = 0x5562719c3000
+brk(0x5562719e4000)                     = 0x5562719e4000
+brk(0x556271a15000)                     = 0x556271a15000
+brk(0x556271a3a000)                     = 0x556271a3a000
+brk(0x556271a5b000)                     = 0x556271a5b000
+brk(0x556271a7c000)                     = 0x556271a7c000
+brk(0x556271a9f000)                     = 0x556271a9f000
+brk(0x556271ac0000)                     = 0x556271ac0000
+brk(0x556271ae1000)                     = 0x556271ae1000
+mmap(NULL, 2101248, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7150bcb000
+munmap(0x7f7150bcb000, 2101248)         = 0
+brk(0x556271b04000)                     = 0x556271b04000
+brk(0x556271b25000)                     = 0x556271b25000
+brk(0x556271d39000)                     = 0x556271d39000
+mmap(0x7f7137200000, 2097152, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7137200000
+ioctl(8, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x27, 0x38), 0x7ffe950f1e60) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1d60) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f18d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1dd0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0c60) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 28
+fcntl(28, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1e30) = 0
+mmap(0x7f7137400000, 3354624, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_FIXED, 28, 0) = 0x7f7137400000
+close(28)                               = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1c90) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1800) = 0
+mmap(NULL, 3354624, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7150a99000
+write(27, "\1\0\0\0\0\0\0\0", 8)        = 8
+munmap(0x7f7150a99000, 3354624)         = 0
+mmap(NULL, 100659200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7130001000
+munmap(0x7f7130001000, 33550336)        = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1df0) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1cb0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1820) = 0
+mmap(NULL, 51597312, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f712eecb000
+munmap(0x7f712eecb000, 51597312)        = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1df0) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1cb0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1820) = 0
+brk(0x556271d91000)                     = 0x556271d91000
+brk(0x556271db6000)                     = 0x556271db6000
+openat(AT_FDCWD, "/dev/nvidia0", O_RDWR|O_CLOEXEC) = 28
+fcntl(28, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(28, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xc9, 0x4), 0x7ffe950f2880) = 0
+ioctl(28, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xce, 0x10), 0x7ffe950f2880) = 0
+ioctl(28, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2850) = 0
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffe950f2910, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, {tv_sec=1670223756, tv_nsec=61986000}, 0xffffffff) = 0
+openat(AT_FDCWD, "/dev/nvidia0", O_RDWR|O_CLOEXEC) = 29
+fcntl(29, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(29, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xc9, 0x4), 0x7ffe950f2880) = 0
+ioctl(29, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xce, 0x10), 0x7ffe950f2880) = 0
+ioctl(29, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2850) = 0
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+openat(AT_FDCWD, "/dev/nvidia0", O_RDWR|O_CLOEXEC) = 30
+fcntl(30, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(30, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xc9, 0x4), 0x7ffe950f2880) = 0
+ioctl(30, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xce, 0x10), 0x7ffe950f2880) = 0
+ioctl(30, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2850) = 0
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+openat(AT_FDCWD, "/dev/nvidia0", O_RDWR|O_CLOEXEC) = 31
+fcntl(31, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(31, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xc9, 0x4), 0x7ffe950f2880) = 0
+ioctl(31, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xce, 0x10), 0x7ffe950f2880) = 0
+ioctl(31, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2850) = 0
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1710) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1840) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1830) = 0
+mmap(NULL, 402649088, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f711a001000
+munmap(0x7f711a001000, 33550336)        = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1dd0) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1c90) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1800) = 0
+brk(0x556271e26000)                     = 0x556271e26000
+brk(0x556271e52000)                     = 0x556271e52000
+brk(0x556271e79000)                     = 0x556271e79000
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f18b0) = 0
+pipe2([32, 33], O_CLOEXEC)              = 0
+fcntl(32, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+fcntl(33, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffe950f2970, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, {tv_sec=1670223756, tv_nsec=66973000}, 0xffffffff) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69800
+wait4(69800, HSI:Init CUDA done!
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69800
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69805
+wait4(69805, HSI:Analysis begin
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69805
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69809
+wait4(69809, HSI:cudaGetDeviceProperties
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69809
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2990) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f28b0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2780) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f28b0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2920) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f27f0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f28b0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2780) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f28b0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2920) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f27f0) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69813
+wait4(69813, HSI:cudaChooseDevice
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69813
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69817
+wait4(69817, HSI:cudaDeviceGetAttribute
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69817
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69821
+wait4(69821, HSI:cudaDeviceGetCacheConfig
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69821
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69825
+wait4(69825, HSI:cudaDeviceGetDefaultMemPool
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69825
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+mmap(0x502000000, 84724940800, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x502000000
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69829
+wait4(69829, HSI:cudaDeviceGetLimit
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69829
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69833
+wait4(69833, HSI:cudaDeviceGetP2PAttribute
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69833
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69837
+wait4(69837, HSI:cudaDeviceGetSharedMemConfig
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69837
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69841
+wait4(69841, HSI:cudaDeviceGetStreamPriorityRange
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69841
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69845
+wait4(69845, HSI:cudaDeviceReset
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69845
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+ioctl(4, _IOC(0, 0, 0x22, 0), 0x7ffe950f3790) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3860) = 0
+ioctl(4, _IOC(0, 0, 0x22, 0), 0x7ffe950f3790) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3860) = 0
+munmap(0x10000000000, 67108864)         = 0
+munmap(0x7f7151169000, 528384)          = 0
+munmap(0x7f71510e8000, 528384)          = 0
+munmap(0x7f715aa7e000, 266240)          = 0
+munmap(0x7f715a9fd000, 528384)          = 0
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffe950f3b60, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, {tv_sec=1670223756, tv_nsec=337788000}, 0xffffffff) = 0
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3ac0) = 0
+ioctl(29, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xcf, 0x10), 0x7ffe950f3ad0) = 0
+close(29)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3ac0) = 0
+ioctl(30, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xcf, 0x10), 0x7ffe950f3ad0) = 0
+close(30)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3ac0) = 0
+ioctl(28, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xcf, 0x10), 0x7ffe950f3ad0) = 0
+close(28)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3ac0) = 0
+ioctl(31, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xcf, 0x10), 0x7ffe950f3ad0) = 0
+close(31)                               = 0
+ioctl(4, _IOC(0, 0, 0x22, 0), 0x7ffe950f3720) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f37f0) = 0
+ioctl(4, _IOC(0, 0, 0x22, 0), 0x7ffe950f3720) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f37f0) = 0
+munmap(0x7f7132000000, 67108864)        = 0
+ioctl(4, _IOC(0, 0, 0x22, 0), 0x7ffe950f3790) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4f, 0x20), 0x7ffe950f38a0) = 0
+mmap(0x7f7137400000, 3354624, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, 0, 0) = 0x7f7137400000
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3860) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3af0) = 0
+ioctl(4, _IOC(0, 0, 0x22, 0), 0x7ffe950f3790) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3860) = 0
+mmap(0x7f7137200000, 2097152, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7137200000
+munmap(0x7f7150dcc000, 1163264)         = 0
+ioctl(4, _IOC(0, 0, 0x22, 0), 0x7ffe950f3790) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4f, 0x20), 0x7ffe950f38a0) = 0
+mmap(0x7f7137000000, 2097152, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, 0, 0) = 0x7f7137000000
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3860) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2a70) = 0
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffe950f3b60, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, {tv_sec=1670223756, tv_nsec=348411000}, 0xffffffff) = 0
+close(33)                               = 0
+close(32)                               = 0
+ioctl(4, _IOC(0, 0, 0x22, 0), 0x7ffe950f37a0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3870) = 0
+munmap(0x7f7150ee8000, 2097152)         = 0
+ioctl(4, _IOC(0, 0, 0x22, 0), 0x7ffe950f37c0) = 0
+ioctl(4, _IOC(0, 0, 0x22, 0), 0x7ffe950f37c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3890) = 0
+mmap(0x7f7136600000, 2097152, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7136600000
+ioctl(4, _IOC(0, 0, 0x22, 0), 0x7ffe950f37c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4f, 0x20), 0x7ffe950f38d0) = 0
+mmap(0x7f7136400000, 2097152, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, 0, 0) = 0x7f7136400000
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3890) = 0
+ioctl(4, _IOC(0, 0, 0x18, 0), 0x7ffe950f3b60) = 0
+ioctl(4, _IOC(0, 0, 0x18, 0), 0x7ffe950f3b60) = 0
+ioctl(4, _IOC(0, 0, 0x18, 0), 0x7ffe950f3b60) = 0
+ioctl(4, _IOC(0, 0, 0x18, 0), 0x7ffe950f3b60) = 0
+ioctl(4, _IOC(0, 0, 0x18, 0), 0x7ffe950f3b60) = 0
+ioctl(4, _IOC(0, 0, 0x18, 0), 0x7ffe950f3b60) = 0
+ioctl(4, _IOC(0, 0, 0x18, 0), 0x7ffe950f3b60) = 0
+ioctl(4, _IOC(0, 0, 0x18, 0), 0x7ffe950f3b60) = 0
+ioctl(4, _IOC(0, 0, 0x18, 0), 0x7ffe950f3b60) = 0
+ioctl(4, _IOC(0, 0, 0x22, 0), 0x7ffe950f3790) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3860) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2a70) = 0
+ioctl(4, _IOC(0, 0, 0x22, 0), 0x7ffe950f37c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3890) = 0
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffe950f3b60, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, {tv_sec=1670223756, tv_nsec=351549000}, 0xffffffff) = -1 EAGAIN (Resource temporarily unavailable)
+close(27)                               = 0
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3aa0) = 0
+ioctl(17, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xcf, 0x10), 0x7ffe950f3ab0) = 0
+close(17)                               = 0
+ioctl(4, _IOC(0, 0, 0x1c, 0), 0x7ffe950f3b10) = 0
+ioctl(4, _IOC(0, 0, 0x1c, 0), 0x7ffe950f3b10) = 0
+ioctl(4, _IOC(0, 0, 0x1c, 0), 0x7ffe950f3b10) = 0
+ioctl(4, _IOC(0, 0, 0x1c, 0), 0x7ffe950f3b10) = 0
+ioctl(4, _IOC(0, 0, 0x1c, 0), 0x7ffe950f3b10) = 0
+ioctl(4, _IOC(0, 0, 0x1c, 0), 0x7ffe950f3b10) = 0
+ioctl(4, _IOC(0, 0, 0x1c, 0), 0x7ffe950f3b10) = 0
+ioctl(4, _IOC(0, 0, 0x1c, 0), 0x7ffe950f3b10) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4f, 0x20), 0x7ffe950f3800) = 0
+munmap(0x7f715abc3000, 4096)            = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f37c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4f, 0x20), 0x7ffe950f3800) = 0
+munmap(0x7f715abc2000, 4096)            = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f37c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4f, 0x20), 0x7ffe950f3800) = 0
+munmap(0x7f715abc1000, 4096)            = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f37c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4f, 0x20), 0x7ffe950f3800) = 0
+munmap(0x7f715abc0000, 4096)            = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f37c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4f, 0x20), 0x7ffe950f3800) = 0
+munmap(0x7f715abbf000, 4096)            = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f37c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4f, 0x20), 0x7ffe950f3800) = 0
+munmap(0x7f715abbe000, 4096)            = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f37c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4f, 0x20), 0x7ffe950f3800) = 0
+munmap(0x7f715abbd000, 4096)            = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f37c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4f, 0x20), 0x7ffe950f3800) = 0
+munmap(0x7f715abbc000, 4096)            = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f37c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3ac0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3ac0) = 0
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffe950f3b40, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, {tv_sec=1670223756, tv_nsec=390483000}, 0xffffffff) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3aa0) = 0
+ioctl(18, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xcf, 0x10), 0x7ffe950f3ab0) = 0
+close(18)                               = 0
+ioctl(4, _IOC(0, 0, 0x1c, 0), 0x7ffe950f3b10) = 0
+ioctl(4, _IOC(0, 0, 0x1c, 0), 0x7ffe950f3b10) = 0
+ioctl(4, _IOC(0, 0, 0x1c, 0), 0x7ffe950f3b10) = 0
+ioctl(4, _IOC(0, 0, 0x1c, 0), 0x7ffe950f3b10) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4f, 0x20), 0x7ffe950f3800) = 0
+munmap(0x7f715abbb000, 4096)            = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f37c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4f, 0x20), 0x7ffe950f3800) = 0
+munmap(0x7f715abba000, 4096)            = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f37c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4f, 0x20), 0x7ffe950f3800) = 0
+munmap(0x7f715abb9000, 4096)            = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f37c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4f, 0x20), 0x7ffe950f3800) = 0
+munmap(0x7f715abb8000, 4096)            = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f37c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3ac0) = 0
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffe950f3b40, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, {tv_sec=1670223756, tv_nsec=407085000}, 0xffffffff) = -1 EAGAIN (Resource temporarily unavailable)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3aa0) = 0
+ioctl(25, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xcf, 0x10), 0x7ffe950f3ab0) = 0
+close(25)                               = 0
+ioctl(4, _IOC(0, 0, 0x1c, 0), 0x7ffe950f3b10) = 0
+ioctl(4, _IOC(0, 0, 0x1c, 0), 0x7ffe950f3b10) = 0
+ioctl(4, _IOC(0, 0, 0x1c, 0), 0x7ffe950f3b10) = 0
+ioctl(4, _IOC(0, 0, 0x1c, 0), 0x7ffe950f3b10) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4f, 0x20), 0x7ffe950f3800) = 0
+munmap(0x7f715abb7000, 4096)            = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f37c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4f, 0x20), 0x7ffe950f3800) = 0
+munmap(0x7f715abb6000, 4096)            = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f37c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4f, 0x20), 0x7ffe950f3800) = 0
+munmap(0x7f715abb5000, 4096)            = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f37c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4f, 0x20), 0x7ffe950f3800) = 0
+munmap(0x7f715a9fc000, 4096)            = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f37c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3ac0) = 0
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffe950f3b40, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, {tv_sec=1670223756, tv_nsec=423637000}, 0xffffffff) = -1 EAGAIN (Resource temporarily unavailable)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3aa0) = 0
+ioctl(26, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xcf, 0x10), 0x7ffe950f3ab0) = 0
+close(26)                               = 0
+ioctl(4, _IOC(0, 0, 0x1c, 0), 0x7ffe950f3b10) = 0
+ioctl(4, _IOC(0, 0, 0x1c, 0), 0x7ffe950f3b10) = 0
+ioctl(4, _IOC(0, 0, 0x1c, 0), 0x7ffe950f3b10) = 0
+ioctl(4, _IOC(0, 0, 0x1c, 0), 0x7ffe950f3b10) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4f, 0x20), 0x7ffe950f3800) = 0
+munmap(0x7f715a9fb000, 4096)            = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f37c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4f, 0x20), 0x7ffe950f3800) = 0
+munmap(0x7f715a9fa000, 4096)            = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f37c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4f, 0x20), 0x7ffe950f3800) = 0
+munmap(0x7f715a9f9000, 4096)            = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f37c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3a60) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4f, 0x20), 0x7ffe950f3800) = 0
+munmap(0x7f715a9f8000, 4096)            = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f37c0) = 0
+ioctl(4, _IOC(0, 0, 0x22, 0), 0x7ffe950f36d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4f, 0x20), 0x7ffe950f37e0) = 0
+mmap(0x200800000, 58720256, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, 0, 0) = 0x200800000
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f37a0) = 0
+ioctl(4, _IOC(0, 0, 0x22, 0), 0x7ffe950f36d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4f, 0x20), 0x7ffe950f37e0) = 0
+mmap(0x200600000, 2097152, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, 0, 0) = 0x200600000
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f37a0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3ac0) = 0
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f71519ea9d0, FUTEX_WAIT, 69799, NULL) = 0
+close(16)                               = 0
+ioctl(4, _IOC(0, 0, 0x22, 0), 0x7ffe950f37c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3890) = 0
+munmap(0x7f711c000000, 369098752)       = 0
+ioctl(4, _IOC(0, 0, 0x22, 0), 0x7ffe950f3770) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3840) = 0
+ioctl(4, _IOC(0, 0, 0x22, 0), 0x7ffe950f37c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3890) = 0
+ioctl(4, _IOC(0, 0, 0x22, 0), 0x7ffe950f3790) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3860) = 0
+ioctl(4, _IOC(0, 0, 0x22, 0), 0x7ffe950f3760) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4f, 0x20), 0x7ffe950f3870) = 0
+mmap(0x206600000, 2097152, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, 0, 0) = 0x206600000
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3830) = 0
+ioctl(4, _IOC(0, 0, 0x22, 0), 0x7ffe950f3790) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4f, 0x20), 0x7ffe950f38a0) = 0
+mmap(0x206200000, 2097152, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, 0, 0) = 0x206200000
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3860) = 0
+ioctl(4, _IOC(0, 0, 0x22, 0), 0x7ffe950f3790) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4f, 0x20), 0x7ffe950f38a0) = 0
+mmap(0x200400000, 2097152, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, 0, 0) = 0x200400000
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3860) = 0
+ioctl(4, _IOC(0, 0, 0x22, 0), 0x7ffe950f3790) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4f, 0x20), 0x7ffe950f38a0) = 0
+mmap(0x205c00000, 2097152, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, 0, 0) = 0x205c00000
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3860) = 0
+ioctl(4, _IOC(0, 0, 0x22, 0), 0x7ffe950f3790) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4f, 0x20), 0x7ffe950f38a0) = 0
+mmap(0x205e00000, 2097152, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, 0, 0) = 0x205e00000
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3860) = 0
+ioctl(4, _IOC(0, 0, 0x22, 0), 0x7ffe950f37a0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3870) = 0
+ioctl(4, _IOC(0, 0, 0x22, 0), 0x7ffe950f37a0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3870) = 0
+mmap(0x7f7136800000, 2097152, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7136800000
+mmap(0x206000000, 2097152, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x206000000
+ioctl(4, _IOC(0, 0, 0x22, 0), 0x7ffe950f3870) = 0
+ioctl(4, _IOC(0, 0, 0x22, 0), 0x7ffe950f3790) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f3860) = 0
+munmap(0x7f7136000000, 33554432)        = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2a00) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69849
+wait4(69849, HSI:cudaDeviceSetCacheConfig
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69849
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1880) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1880) = 0
+eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK)   = 16
+fcntl(16, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+clone(child_stack=0x7f71519e7ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f71519ea9d0, tls=0x7f71519ea700, child_tidptr=0x7f71519ea9d0) = 69853
+openat(AT_FDCWD, "/proc/self/task/69853/comm", O_RDWR) = 17
+write(17, "cuda-EvtHandlr", 14)         = 14
+close(17)                               = 0
+futex(0x556271760ad8, FUTEX_WAKE_PRIVATE, 1) = 1
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1850) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1df0) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1cb0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1820) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1e10) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0ca0) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 17
+fcntl(17, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1e70) = 0
+mmap(0x200400000, 2097152, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_FIXED, 17, 0) = 0x200400000
+close(17)                               = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1cd0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1840) = 0
+mmap(0x10000000000, 67108864, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x10000000000
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1d20) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1be0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1750) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1d20) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1be0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1750) = 0
+mmap(NULL, 67104768, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7134001000
+munmap(0x7f7134001000, 33550336)        = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1ed0) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1d90) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1900) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2630) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2590) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1890) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0720) = 0
+openat(AT_FDCWD, "/dev/nvidia0", O_RDWR|O_CLOEXEC) = 17
+fcntl(17, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f18f0) = 0
+mmap(0x200600000, 2097152, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_FIXED, 17, 0) = 0x200600000
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x5e, 0x28), 0x7ffe950f18c0) = 0
+close(17)                               = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1750) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f12c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1710) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f05a0) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 17
+fcntl(17, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1770) = 0
+mmap(0x200800000, 58720256, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_FIXED, 17, 0) = 0x200800000
+close(17)                               = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f15d0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1140) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0860) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 17
+fcntl(17, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a30) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 17, 0) = 0x7f715abc3000
+close(17)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2330) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1280) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1240) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1240) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1c10) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0aa0) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 17
+fcntl(17, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1c70) = 0
+mmap(0x205c00000, 2097152, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_FIXED, 17, 0) = 0x205c00000
+close(17)                               = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1ad0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1640) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1c10) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0aa0) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 17
+fcntl(17, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1c70) = 0
+mmap(0x205e00000, 2097152, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_FIXED, 17, 0) = 0x205e00000
+close(17)                               = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1ad0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1640) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0860) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 17
+fcntl(17, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a30) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 17, 0) = 0x7f715abc2000
+close(17)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2330) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1280) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1240) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1240) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0860) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 17
+fcntl(17, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a30) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 17, 0) = 0x7f715abc1000
+close(17)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2330) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1280) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1240) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1240) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0860) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 17
+fcntl(17, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a30) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 17, 0) = 0x7f715abc0000
+close(17)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2330) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1280) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1240) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1240) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0860) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 17
+fcntl(17, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a30) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 17, 0) = 0x7f715abbf000
+close(17)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2330) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1280) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1240) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1240) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0860) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 17
+fcntl(17, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a30) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 17, 0) = 0x7f715abbe000
+close(17)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2330) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1280) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1240) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1240) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0860) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 17
+fcntl(17, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a30) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 17, 0) = 0x7f715abbd000
+close(17)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2330) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1280) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1240) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1240) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0860) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 17
+fcntl(17, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a30) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 17, 0) = 0x7f715abbc000
+close(17)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2330) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1280) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1240) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1240) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f27a0) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f27a0) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f27a0) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f27a0) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f27a0) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f27a0) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f27a0) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f27a0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1690) = 0
+openat(AT_FDCWD, "/dev/nvidia0", O_RDWR|O_CLOEXEC) = 17
+fcntl(17, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(17, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xc9, 0x4), 0x7ffe950f26c0) = 0
+ioctl(17, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xce, 0x10), 0x7ffe950f26c0) = 0
+ioctl(17, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2690) = 0
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffe950f2750, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, {tv_sec=1670223756, tv_nsec=576926000}, 0xffffffff) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2630) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0860) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 18
+fcntl(18, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a30) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 18, 0) = 0x7f715abbb000
+close(18)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2330) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1280) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1240) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0860) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 18
+fcntl(18, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a30) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 18, 0) = 0x7f715abba000
+close(18)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2330) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1280) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1240) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0860) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 18
+fcntl(18, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a30) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 18, 0) = 0x7f715abb9000
+close(18)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2330) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1280) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1240) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0860) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 18
+fcntl(18, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a30) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 18, 0) = 0x7f715abb8000
+close(18)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2330) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1280) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1240) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f27a0) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f27a0) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f27a0) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f27a0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1690) = 0
+openat(AT_FDCWD, "/dev/nvidia0", O_RDWR|O_CLOEXEC) = 18
+fcntl(18, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(18, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xc9, 0x4), 0x7ffe950f26c0) = 0
+ioctl(18, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xce, 0x10), 0x7ffe950f26c0) = 0
+ioctl(18, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2690) = 0
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2630) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0860) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 25
+fcntl(25, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a30) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 25, 0) = 0x7f715abb7000
+close(25)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2330) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1280) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1240) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0860) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 25
+fcntl(25, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a30) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 25, 0) = 0x7f715abb6000
+close(25)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2330) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1280) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1240) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0860) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 25
+fcntl(25, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a30) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 25, 0) = 0x7f715abb5000
+close(25)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2330) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1280) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1240) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0860) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 25
+fcntl(25, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a30) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 25, 0) = 0x7f715aabe000
+close(25)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2330) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1280) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1240) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f27a0) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f27a0) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f27a0) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f27a0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1690) = 0
+openat(AT_FDCWD, "/dev/nvidia0", O_RDWR|O_CLOEXEC) = 25
+fcntl(25, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(25, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xc9, 0x4), 0x7ffe950f26c0) = 0
+ioctl(25, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xce, 0x10), 0x7ffe950f26c0) = 0
+ioctl(25, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2690) = 0
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2630) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0860) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a30) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 26, 0) = 0x7f715aabd000
+close(26)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2330) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1280) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1240) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0860) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a30) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 26, 0) = 0x7f715aabc000
+close(26)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2330) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1280) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1240) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0860) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a30) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 26, 0) = 0x7f715aabb000
+close(26)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2330) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1280) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1240) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f19d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0860) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1a30) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 26, 0) = 0x7f715aaba000
+close(26)                               = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2330) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1280) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f22e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f11d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1240) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f27a0) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f27a0) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f27a0) = 0
+ioctl(4, _IOC(0, 0, 0x1b, 0), 0x7ffe950f27a0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1690) = 0
+openat(AT_FDCWD, "/dev/nvidia0", O_RDWR|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(26, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xc9, 0x4), 0x7ffe950f26c0) = 0
+ioctl(26, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xce, 0x10), 0x7ffe950f26c0) = 0
+ioctl(26, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2690) = 0
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffe950f2750, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, {tv_sec=1670223756, tv_nsec=647834000}, 0xffffffff) = 0
+eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK)   = 27
+fcntl(27, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1380) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1240) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1d00) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1bc0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1730) = 0
+ioctl(4, _IOC(0, 0, 0x44, 0), 0x7ffe950f1910) = 0
+mmap(0x206000000, 2097152, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_FIXED, 4, 0x206000000) = 0x206000000
+ioctl(4, _IOC(0, 0, 0x48, 0), 0x7ffe950f1830) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1d70) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0c00) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 28
+fcntl(28, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1dd0) = 0
+mmap(0x206200000, 2097152, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_FIXED, 28, 0) = 0x206200000
+close(28)                               = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1c30) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f17a0) = 0
+ioctl(4, _IOC(0, 0, 0x17, 0), 0x7ffe950f2930) = 0
+ioctl(4, _IOC(0, 0, 0x17, 0), 0x7ffe950f2930) = 0
+ioctl(4, _IOC(0, 0, 0x17, 0), 0x7ffe950f2930) = 0
+ioctl(4, _IOC(0, 0, 0x17, 0), 0x7ffe950f2930) = 0
+ioctl(4, _IOC(0, 0, 0x17, 0), 0x7ffe950f2930) = 0
+ioctl(4, _IOC(0, 0, 0x17, 0), 0x7ffe950f2930) = 0
+ioctl(4, _IOC(0, 0, 0x17, 0), 0x7ffe950f2930) = 0
+ioctl(4, _IOC(0, 0, 0x17, 0), 0x7ffe950f2930) = 0
+ioctl(4, _IOC(0, 0, 0x17, 0), 0x7ffe950f2930) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1d00) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0b90) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 28
+fcntl(28, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1d60) = 0
+mmap(0x7f7136400000, 2097152, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_FIXED, 28, 0) = 0x7f7136400000
+close(28)                               = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1bc0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1730) = 0
+mmap(0x7f7136600000, 2097152, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7136600000
+ioctl(8, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x27, 0x38), 0x7ffe950f1cc0) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1bc0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1730) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1e70) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1d30) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f18a0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1c90) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0b20) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 28
+fcntl(28, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1cf0) = 0
+mmap(0x206600000, 2097152, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_FIXED, 28, 0) = 0x206600000
+close(28)                               = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1b50) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f16c0) = 0
+mmap(0x7f7136800000, 2097152, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7136800000
+ioctl(8, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x27, 0x38), 0x7ffe950f1d20) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1c20) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1790) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1d60) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1c20) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1790) = 0
+ioctl(4, _IOC(0, 0, 0x41, 0), 0x7ffe950f2020) = 0
+mmap(NULL, 2097152, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_ANONYMOUS, -1, 0) = 0x7f7150fea000
+ioctl(8, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x27, 0x38), 0x7ffe950f1de0) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1ce0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1850) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1990) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1850) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f13c0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f2020) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1ee0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1a50) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f29d0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f2020) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0eb0) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 28
+fcntl(28, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f2080) = 0
+mmap(0x7f7137000000, 2097152, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_FIXED, 28, 0) = 0x7f7137000000
+close(28)                               = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1ee0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1a50) = 0
+brk(0x556272054000)                     = 0x556272054000
+mmap(0x7f7137200000, 2097152, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7137200000
+ioctl(8, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x27, 0x38), 0x7ffe950f1e70) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1d70) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f18e0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1de0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f0c70) = 0
+openat(AT_FDCWD, "/dev/nvidiactl", O_RDWR|O_CLOEXEC) = 28
+fcntl(28, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4e, 0x38), 0x7ffe950f1e40) = 0
+mmap(0x7f7137400000, 3354624, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_FIXED, 28, 0) = 0x7f7137400000
+close(28)                               = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1ca0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1810) = 0
+brk(0x5562721b3000)                     = 0x5562721b3000
+write(27, "\1\0\0\0\0\0\0\0", 8)        = 8
+mmap(NULL, 100659200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7130001000
+munmap(0x7f7130001000, 33550336)        = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1e00) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1cc0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1830) = 0
+mmap(NULL, 51597312, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f712eecb000
+munmap(0x7f712eecb000, 51597312)        = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1e00) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1cc0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1830) = 0
+openat(AT_FDCWD, "/dev/nvidia0", O_RDWR|O_CLOEXEC) = 28
+fcntl(28, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(28, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xc9, 0x4), 0x7ffe950f2890) = 0
+ioctl(28, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xce, 0x10), 0x7ffe950f2890) = 0
+ioctl(28, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2860) = 0
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffe950f2920, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, {tv_sec=1670223756, tv_nsec=725956000}, 0xffffffff) = -1 EAGAIN (Resource temporarily unavailable)
+openat(AT_FDCWD, "/dev/nvidia0", O_RDWR|O_CLOEXEC) = 29
+fcntl(29, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(29, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xc9, 0x4), 0x7ffe950f2890) = 0
+ioctl(29, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xce, 0x10), 0x7ffe950f2890) = 0
+ioctl(29, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2860) = 0
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+openat(AT_FDCWD, "/dev/nvidia0", O_RDWR|O_CLOEXEC) = 30
+fcntl(30, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(30, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xc9, 0x4), 0x7ffe950f2890) = 0
+ioctl(30, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xce, 0x10), 0x7ffe950f2890) = 0
+ioctl(30, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2860) = 0
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+openat(AT_FDCWD, "/dev/nvidia0", O_RDWR|O_CLOEXEC) = 31
+fcntl(31, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+ioctl(31, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xc9, 0x4), 0x7ffe950f2890) = 0
+ioctl(31, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0xce, 0x10), 0x7ffe950f2890) = 0
+ioctl(31, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2b, 0x28), 0x7ffe950f2860) = 0
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1720) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1850) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f1840) = 0
+mmap(NULL, 402649088, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f711a001000
+munmap(0x7f711a001000, 33550336)        = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f1de0) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f1ca0) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f1810) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f18c0) = 0
+pipe2([32, 33], O_CLOEXEC)              = 0
+fcntl(32, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+fcntl(33, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffe950f2980, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, {tv_sec=1670223756, tv_nsec=731760000}, 0xffffffff) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69854
+wait4(69854, HSI:cudaDeviceSetLimit
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69854
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+ioctl(4, _IOC(0, 0, 0x22, 0), 0x7ffe950f34f0) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x29, 0x10), 0x7ffe950f35c0) = 0
+munmap(0x7f711c000000, 369098752)       = 0
+mmap(NULL, 301985792, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7120001000
+munmap(0x7f7120001000, 33550336)        = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f2f60) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f2e20) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f2990) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69858
+wait4(69858, HSI:cudaDeviceSetSharedMemConfig
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69858
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69862
+wait4(69862, HSI:cudaGetDevice
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69862
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69866
+wait4(69866, HSI:cudaGetDeviceCount
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69866
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69870
+wait4(69870, HSI:cudaGetDeviceFlags
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69870
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69874
+wait4(69874, HSI:cudaSetDevice
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69874
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69878
+wait4(69878, HSI:cudaSetDeviceFlags
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69878
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69882
+wait4(69882, HSI:cudaGetLastError
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69882
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69886
+wait4(69886, HSI:cudaPeekAtLastError
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69886
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69890
+wait4(69890, HSI:cudaCtxResetPersistingL2Cache
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69890
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69894
+wait4(69894, HSI:cudaStreamCreate
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69894
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+ioctl(4, _IOC(0, 0, 0x17, 0), 0x7ffe950f3b40) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69898
+wait4(69898, HSI:cudaStreamCreateWithFlags
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69898
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+ioctl(4, _IOC(0, 0, 0x17, 0), 0x7ffe950f3b30) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69902
+wait4(69902, HSI:cudaStreamCreateWithPriority
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69902
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+ioctl(4, _IOC(0, 0, 0x17, 0), 0x7ffe950f3b10) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69906
+wait4(69906, HSI:cudaStreamCopyAttributes
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69906
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69910
+wait4(69910, HSI:cudaStreamDestroy
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69910
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+ioctl(4, _IOC(0, 0, 0x18, 0), 0x7ffe950f3c10) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69915
+wait4(69915, HSI:cudaStreamGetFlags
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69915
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69919
+wait4(69919, HSI:cudaStreamGetPriority
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69919
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69923
+wait4(69923, HSI:cudaStreamQuery
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69923
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69927
+wait4(69927, HSI:cudaStreamSynchronize
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69927
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69931
+wait4(69931, HSI:cudaEventCreate
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69931
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69935
+wait4(69935, HSI:cudaEventCreateWithFlags
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69935
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69939
+wait4(69939, HSI:cudaEventDestroy
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69939
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69943
+wait4(69943, HSI:cudaEventRecord
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69943
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69947
+wait4(69947, HSI:cudaEventQuery
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69947
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69951
+wait4(69951, HSI:cudaEventSynchronize
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69951
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69955
+wait4(69955, HSI:cudaFuncGetAttributes
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69955
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69959
+wait4(69959, HSI:cudaFuncSetAttribute	SharedMemoryCarveout
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69959
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69963
+wait4(69963, HSI:cudaFuncSetAttribute	MaxDynamicSharedMemorySize
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69963
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69967
+wait4(69967, HSI:cudaFuncSetCacheConfig	PreferL1
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69967
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69971
+wait4(69971, HSI:cudaFuncSetSharedMemConfig
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69971
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69975
+wait4(69975, HSI:cudaMalloc
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69975
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x4a, 0xb8), 0x7ffe950f3150) = 0
+ioctl(3, _IOC(_IOC_READ|_IOC_WRITE, 0x46, 0x2a, 0x20), 0x7ffe950f2050) = 0
+ioctl(4, _IOC(0, 0, 0x49, 0), 0x7ffe950f3010) = 0
+ioctl(4, _IOC(0, 0, 0x21, 0), 0x7ffe950f2b80) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69979
+wait4(69979, HSI:cudaDeviceSynchronize
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69979
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffe950f3c5c) = 69983
+wait4(69983, HSI:Analysis end
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 69983
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7159a2cf10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
