@@ -11,6 +11,9 @@ Rebinder ( may located in every worker node)
 GNU BIN UTILITY
 Local repository cache
 
+## linker option when compiling ##
+Device code sections should be located end of sections
+(TODO: add linker sample)
 
 ## how to use ##
 objcopy (binutils)
