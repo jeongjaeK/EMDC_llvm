@@ -78,7 +78,9 @@ int main(int argc, char* argv[]) {
 	up_args.filename.append(argv[4]);
 
 	minio::s3::UploadObjectResponse up_resp = client.UploadObject(up_args);
-	if(up_resp){}
+	if(up_resp){
+		std::cout << "{ \"msg\" : \"Upload success\"}";
+	}
 	else{
 		std::cout << "{\"Upload Error\": \"" << up_resp.Error().String() << "\"}";	
 		return -1;

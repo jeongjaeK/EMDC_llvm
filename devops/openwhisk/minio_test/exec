@@ -1,0 +1,10 @@
+# parse action param
+#TASK_ID=$(jq -r '(.TASK_ID)')
+
+# command to exec.exe via named pipe "fifo.1"
+chmod +x exec.exe
+
+./exec.exe ow-test00 int32 ow-test00 ow-int3
+
+# trim new line
+#./exec.exe | tr -s '\n' ';' > out
