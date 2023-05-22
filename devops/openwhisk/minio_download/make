@@ -1,0 +1,5 @@
+#!/bin/bash
+
+nvcc -DCURL_STATICLIB -I/home/sihong/src/minio-cpp/include -isystem /home/sihong/src/minio-cpp/build/vcpkg_installed/x64-linux/include -Xcompiler -fPIE -std=c++17  -o example.o -c example.cu
+nvcc -Xcompiler -rdynamic example.o -o example  /home/sihong/src/minio-cpp/build/src/libminiocpp.a /home/sihong/src/minio-cpp/build/vcpkg_installed/x64-linux/debug/lib/libcurl-d.a /home/sihong/src/minio-cpp/build/vcpkg_installed/x64-linux/debug/lib/libcurlpp.a /home/sihong/src/minio-cpp/build/vcpkg_installed/x64-linux/debug/lib/libinih.a /home/sihong/src/minio-cpp/build/vcpkg_installed/x64-linux/debug/lib/libssl.a /home/sihong/src/minio-cpp/build/vcpkg_installed/x64-linux/debug/lib/libcrypto.a /home/sihong/src/minio-cpp/build/vcpkg_installed/x64-linux/debug/lib/libcurl-d.a /home/sihong/src/minio-cpp/build/vcpkg_installed/x64-linux/debug/lib/libz.a /home/sihong/src/minio-cpp/build/vcpkg_installed/x64-linux/debug/lib/libpugixml.a /home/sihong/src/minio-cpp/build/vcpkg_installed/x64-linux/debug/lib/libssl.a /home/sihong/src/minio-cpp/build/vcpkg_installed/x64-linux/debug/lib/libcrypto.a -lpthread -ldl -lstdc++fs
+
