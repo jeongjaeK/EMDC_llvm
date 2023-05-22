@@ -22,19 +22,26 @@ e.g. clang++ -fsycl -fsycl-targets=[backend list] main.cpp -Xlink [linker arg] (
 
 ## Docker image ##
 sunginh/emdc-oneapi-base-cuda:v1.0 - for sycl supports Intel CPU, NVIDIA GPU, INTEL FPGA PAC D5005
+
 (test)sunginh/emdc-ow-cuda-11.8.0:v0.2 - for baseline
+
 (test)sunginh/emdc-ow-cuda-11.8.0:v0.83 - for persistent thread model
 
  
 ## Object Storage ##
 This project adopts MinIO as Object Storage which is compatible with AWS S3.
+
 https://min.io/
+
 https://github.com/minio/minio
 
 ## Work-in-progress ##
 Reduce startup latency for NVIDIA GPU: context creation time(~220ms)
+
 Reduce startup latency for Intel FPGA: Program FPGA bit stream(~2s)
+
 Release dense funtion bottleneck of GPU driver: NVIDIA GPU driver hold two types of lock, RMAPI lock for blocking APIs and GPU locks for non-blocking APIs.
+    
     
 ## Forked from ##
 Intel LLVM-based projects (https://github.com/intel/llvm)
