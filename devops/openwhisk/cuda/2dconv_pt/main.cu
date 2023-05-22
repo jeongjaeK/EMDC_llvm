@@ -20,9 +20,22 @@
 #include <stdarg.h>
 #include <cuda.h>
 
-#include "../../common/polybenchUtilFuncts.h"
+#include "polybenchUtilFuncts.h"
 
 using namespace std;
+
+
+static inline void
+checkRtError(cudaError_t res, const char *tok, const char *file, unsigned line)
+{
+	if (res != cudaSuccess) {
+		std::cerr << file << ':' << line << ' ' << tok
+			<< "failed (" << (unsigned)res << "): " << cudaGetErrorString(res) << std::endl;
+		abort();
+	}
+}
+
+#define CHECK_RT(x) checkRtError(x, #x, __FILE__, __LINE__);
 
 //define the error threshold for the results "not matching"
 #define PERCENT_DIFF_ERROR_THRESHOLD 0.05
@@ -173,8 +186,8 @@ void convolution2DCuda(DATA_TYPE* A, DATA_TYPE* B_outputFromGpu, int id)
 	//fprintf(stdout, "%d: cudaMemcpy out: %0.6lfs\n", id, t_end - t_start);
 
 	t_start = rtclock();
-	cudaFree(A_gpu);
-	cudaFree(B_gpu);
+	CHECK_RT(	cudaFree(A_gpu) 	)
+	CHECK_RT(	cudaFree(B_gpu) 	)
 	t_end = rtclock();
 	output += to_string(t_end - t_start) + " ";		
 	//fprintf(stdout, "%d:, GPU Runtime: %0.6lfs\n", id,t_end - t_start);
@@ -238,12 +251,12 @@ int main(int argc, char *argv[])
 		//	compareResults(B, B_outputFromGpu);
 #ifdef MALLOC
 		free(A);
-		free(B);
+		//free(B);
 		free(B_outputFromGpu);
 #endif
 #ifdef HOST
-		cudaFreeHost(A);
-		cudaFreeHost(B_outputFromGpu);
+		CHECK_RT(	cudaFreeHost(A)		)	
+		CHECK_RT(	cudaFreeHost(B_outputFromGpu)	)
 #endif
 		t_end = rtclock();
 

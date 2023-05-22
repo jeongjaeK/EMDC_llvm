@@ -1,6 +1,7 @@
 DOCKER_IMAGE=sunginh/emdc-ow-cuda-11.8.0:v0.83
 #enter action name here
-ACTION_NAME=cuda_2dconv_pt
+#ACTION_NAME=cuda_2dconv_pt
+ACTION_NAME=2dconv_pt
 ACTION=Action.zip
 
 # compile using clang++ compiler if need
